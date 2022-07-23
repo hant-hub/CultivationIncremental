@@ -1,0 +1,13 @@
+#pragma once
+#define _WINDOWS
+#include <iostream>
+#include <string>
+#include <fmt/core.h>
+#include <sstream>
+#include <fstream>
+#include <thread>
+#include <chrono>
+#include <queue>
+#include <vector>
+#include <functional>
+#include <mutex>

@@ -1,0 +1,15 @@
+#pragma once
+#define _WINDOWS
+#include "glad/glad.h"
+#include "GLFW/glfw3.h"
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+#include "glm/gtc/type_ptr.hpp"
+#include "stb_image.h"
+#include <stdio.h>
+#include <iostream>
+#include <sstream>
+#include <fstream>
+#include <string>
+#include <string_view>
+#include <map>

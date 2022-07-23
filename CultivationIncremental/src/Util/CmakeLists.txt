@@ -1,0 +1,13 @@
+target_sources(app
+PRIVATE
+    scheduler.cpp 
+    Button.cpp
+    Panel.cpp
+    Button.h 
+    Panel.h
+    ui.cpp
+PUBLIC 
+    scheduler.h
+    ui.h
+    scripts.h
+)
