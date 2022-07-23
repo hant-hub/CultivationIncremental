@@ -4,6 +4,7 @@
 #include "Util/ui.h"
 #include "Util/scripts.h"
 
+
 void error_callback(int error, const char* msg) {
 	std::string s;
 	s = " [" + std::to_string(error) + "] " + msg + '\n';
@@ -48,8 +49,8 @@ int main(int argc, char* argv[]) {
     
     Render::Window window = Render::CreateWindow(800, 600);
 
-    Render::Shader textshader("shaders\\vtext.glsl", "shaders\\ftext.glsl");
-    Render::Shader texturedShader("shaders\\vSimple.glsl", "shaders\\fSimple.glsl");
+    Render::Shader textshader("shaders/vText.glsl", "shaders/fText.glsl");
+    Render::Shader texturedShader("shaders/vSimple.glsl", "shaders/fSimple.glsl");
     Render::TextRenderer trender("fonts\\arial.ttf", 48);
 
     Render::Panel test(window, 0, GLogic::CultivationType::Physical);
@@ -57,7 +58,7 @@ int main(int argc, char* argv[]) {
     Render::Button b(&texturedShader, test, "images/image1.png", -50.0f, 0.0f, 100.0f, 100.0f, 0);
     Render::Button a(&texturedShader, test, "images/image1.png", 50.0f, 0.0f, 100.0f, 100.0f, 1);
     
-    Scripts::PanelArray t = Scripts::CreatePanels("scripts/Test.txt", "images/image1.png", window, texturedShader);
+    Scripts::PanelArray t = Scripts::CreatePanels("scripts/test.txt", "images/image1.png", window, texturedShader);
     printf("func exits\n");
     //Render::Panel t[] = {test};
     GUI::GUI gui(window, t.p, nullptr, nullptr, 0u, c);
@@ -96,6 +97,7 @@ int main(int argc, char* argv[]) {
     
  
 
+    
     
     
     s.ScheduleInterval(std::chrono::seconds(1/60), Renderloop);

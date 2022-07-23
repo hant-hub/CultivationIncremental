@@ -28,7 +28,7 @@ namespace Scripts {
             scriptText = scriptbuf.str();
 
         } catch(std::ifstream::failure& e) {
-            std::cout << "Script Failed to be Loaded" << std::endl;
+            std::cout << "Script Failed to be Loaded: " << e.what() << std::endl;
         }
         
         //split string into panel segments

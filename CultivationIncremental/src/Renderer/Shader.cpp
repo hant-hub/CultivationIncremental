@@ -10,13 +10,16 @@ Render::Shader::Shader(const char* VertexPath, const char* FragmentPath){
 	std::ifstream VertFile;
 	std::ifstream FragFile;
 
+	
 	VertFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
 	FragFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
-
+	
 	try {
+		
 		VertFile.open(VertexPath);
+		printf("executed\n");
 		FragFile.open(FragmentPath);
-
+		
 		std::stringstream VertBuff;
 		std::stringstream FragBuff;
 
@@ -36,7 +39,7 @@ Render::Shader::Shader(const char* VertexPath, const char* FragmentPath){
 	const char* vShaderCode = VertCode.c_str();
 	const char* fShaderCode = FragCode.c_str();
 
-	unsigned int vert, frag;
+	GLuint vert, frag;
 
 	vert = glCreateShader(GL_VERTEX_SHADER);
 	glShaderSource(vert, 1, &vShaderCode, NULL);
