@@ -2,6 +2,7 @@
 
 
 namespace Render {
+	
 	void CheckErrorStack(int i) {
 	int code = glGetError();
 	if (code) {
@@ -9,7 +10,7 @@ namespace Render {
         std::cout << i << std::endl;
 	}
 }
-	Sprite::Sprite(const char* filepath, float x, float y, float width, float height, float rot, Shader* s) {
+	Sprite::Sprite(Window& window, const char* filepath, float x, float y, float width, float height, float rot, Shader* s) : w(window) {
 		shader = s;
 		position = glm::vec2(x, y);
 		size = glm::vec2(width, height);
@@ -37,8 +38,8 @@ namespace Render {
 		glBindTexture(GL_TEXTURE_2D, texture);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
 
 		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, w, h, 0, GL_RGBA, GL_UNSIGNED_BYTE, data);
 		stbi_image_free(data);
@@ -65,6 +66,7 @@ namespace Render {
 		glDeleteVertexArrays(1, &VAO);
 		
 	}
+	
 
 	void Sprite::Draw(Camera& camera){
 		(*shader).Use();
@@ -79,11 +81,11 @@ namespace Render {
 		
 		(*shader).SetMat4("model", model);
 		(*shader).SetMat4("view", camera.GetView());
-		(*shader).SetMat4("projection", glm::ortho(0.0f, 800.0f, 600.0f, 0.0f, -1.0f, 1.0f));
+		(*shader).SetMat4("projection", glm::ortho(0.0f, (float)w.width, (float)w.height, 0.0f, -1.0f, 1.0f));
 		
 		glBindTexture(GL_TEXTURE_2D, texture);
 		glBindVertexArray(VAO);
-		CheckErrorStack(0);
+		CheckErrorStack(2);
 		glDrawArrays(GL_TRIANGLES,0,6);
 		glBindVertexArray(0);
 		

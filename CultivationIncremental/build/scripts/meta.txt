@@ -1,0 +1,19 @@
+P
+stage: 0
+type: 3
+
+B
+x: -100.0
+y: -250.0
+text: first
+width: 100.0
+height: 100.0
+ID: 0
+
+B
+x: 50.0
+y: -250.0
+text: second
+width: 200.0
+height 100.0
+ID: 3

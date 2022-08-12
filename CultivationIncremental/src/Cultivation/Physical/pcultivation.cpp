@@ -13,11 +13,11 @@ namespace Physical {
 
     const action<Pcultivation> Actions[2][2] = {
                                     {Action00, Action01},
-                                    {Action10}
+                                    {Action10, Action11}
     };
 
 
-    Pcultivation::Pcultivation() : stage(Mortal), data(Physical::CultivationStage()) {
+    Pcultivation::Pcultivation(Cultivation& c) : c(c), stage(Mortal), data(Physical::Resources::CultivationStage()) {
     }
 
 

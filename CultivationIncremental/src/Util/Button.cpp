@@ -1,9 +1,10 @@
 #include "Button.h"
 #include "Panel.h"
 
+
 namespace Render {
 
-Button::Button(Shader* s, Panel& p, const char* image1, float x, float y, float width, float height, int action) : x(x), y(y), width(width), height(height), visual(Sprite(image1, x, y, width, height, 0.0f, s)), id(action){
+Button::Button(Shader* s, Shader* t, Panel& p, Window& w, const char* text, const char* image1, float x, float y, float width, float height, int action) : x(x), y(y), width(width), height(height), textshader(t), trenderer(w, "fonts\\arial.ttf", 48), text(text), visual(Sprite(w, image1, x, y, width, height, 0.0f, s)), id(action){
 
     p.buttons.push_back(this);
 
@@ -14,8 +15,9 @@ printf("button destroyed\n");
 }
 
 void Button::Draw(Camera& c) {
-   
     visual.Draw(c);
+    
+    trenderer.RenderText(*textshader, text, x - width * 0.25f, y - height * 0.1f, 0.5, glm::vec3(0.0f));
     
 }
 

@@ -20,16 +20,5 @@ CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/9/math.h \
  /usr/include/c++/9/cmath /usr/include/c++/9/bits/cpp_type_traits.h \
  /usr/include/c++/9/ext/type_traits.h /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
- /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
- /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
- /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
  /usr/include/c++/9/bits/std_abs.h /usr/include/assert.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h

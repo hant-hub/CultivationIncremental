@@ -23,6 +23,12 @@
 /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/src/Cultivation/Physical/CMakeFiles/install.dir
 /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/src/Cultivation/Physical/CMakeFiles/install/local.dir
 /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/src/Cultivation/Physical/CMakeFiles/install/strip.dir
+/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/src/Cultivation/Spiritual/CMakeFiles/edit_cache.dir
+/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/src/Cultivation/Spiritual/CMakeFiles/rebuild_cache.dir
+/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/src/Cultivation/Spiritual/CMakeFiles/list_install_components.dir
+/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/src/Cultivation/Spiritual/CMakeFiles/install.dir
+/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/src/Cultivation/Spiritual/CMakeFiles/install/local.dir
+/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/src/Cultivation/Spiritual/CMakeFiles/install/strip.dir
 /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/src/fmt/CMakeFiles/fmt.dir
 /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/src/fmt/CMakeFiles/edit_cache.dir
 /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/src/fmt/CMakeFiles/rebuild_cache.dir

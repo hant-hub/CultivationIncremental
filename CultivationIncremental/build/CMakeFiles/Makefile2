@@ -105,14 +105,17 @@ src/clean: src/Util/clean
 
 # Recursive "all" directory target.
 src/Cultivation/all: src/Cultivation/Physical/all
+src/Cultivation/all: src/Cultivation/Spiritual/all
 .PHONY : src/Cultivation/all
 
 # Recursive "preinstall" directory target.
 src/Cultivation/preinstall: src/Cultivation/Physical/preinstall
+src/Cultivation/preinstall: src/Cultivation/Spiritual/preinstall
 .PHONY : src/Cultivation/preinstall
 
 # Recursive "clean" directory target.
 src/Cultivation/clean: src/Cultivation/Physical/clean
+src/Cultivation/clean: src/Cultivation/Spiritual/clean
 .PHONY : src/Cultivation/clean
 
 #=============================================================================
@@ -129,6 +132,21 @@ src/Cultivation/Physical/preinstall:
 # Recursive "clean" directory target.
 src/Cultivation/Physical/clean:
 .PHONY : src/Cultivation/Physical/clean
+
+#=============================================================================
+# Directory level rules for directory src/Cultivation/Spiritual
+
+# Recursive "all" directory target.
+src/Cultivation/Spiritual/all:
+.PHONY : src/Cultivation/Spiritual/all
+
+# Recursive "preinstall" directory target.
+src/Cultivation/Spiritual/preinstall:
+.PHONY : src/Cultivation/Spiritual/preinstall
+
+# Recursive "clean" directory target.
+src/Cultivation/Spiritual/clean:
+.PHONY : src/Cultivation/Spiritual/clean
 
 #=============================================================================
 # Directory level rules for directory src/Renderer
@@ -392,12 +410,12 @@ CMakeFiles/app.dir/all: src/Renderer/lib/CMakeFiles/glad.dir/all
 CMakeFiles/app.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target app"
 .PHONY : CMakeFiles/app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 0
 .PHONY : CMakeFiles/app.dir/rule
@@ -418,7 +436,7 @@ CMakeFiles/app.dir/clean:
 src/fmt/CMakeFiles/fmt.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/fmt/CMakeFiles/fmt.dir/build.make src/fmt/CMakeFiles/fmt.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/fmt/CMakeFiles/fmt.dir/build.make src/fmt/CMakeFiles/fmt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=25,26 "Built target fmt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=26,27 "Built target fmt"
 .PHONY : src/fmt/CMakeFiles/fmt.dir/all
 
 # Build rule for subdir invocation for target.
@@ -444,7 +462,7 @@ src/fmt/CMakeFiles/fmt.dir/clean:
 src/Renderer/lib/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/CMakeFiles/glad.dir/build.make src/Renderer/lib/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/CMakeFiles/glad.dir/build.make src/Renderer/lib/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=31,32 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=32,33 "Built target glad"
 .PHONY : src/Renderer/lib/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
@@ -496,12 +514,12 @@ src/Renderer/lib/GLFW/CMakeFiles/uninstall.dir/clean:
 src/Renderer/lib/GLFW/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/src/CMakeFiles/update_mappings.dir/build.make src/Renderer/lib/GLFW/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/src/CMakeFiles/update_mappings.dir/build.make src/Renderer/lib/GLFW/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num= "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=95 "Built target update_mappings"
 .PHONY : src/Renderer/lib/GLFW/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
 src/Renderer/lib/GLFW/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Renderer/lib/GLFW/src/CMakeFiles/update_mappings.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 0
 .PHONY : src/Renderer/lib/GLFW/src/CMakeFiles/update_mappings.dir/rule
@@ -522,7 +540,7 @@ src/Renderer/lib/GLFW/src/CMakeFiles/update_mappings.dir/clean:
 src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/build.make src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/build.make src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=33,34,35,36,37,38,39,40,41,42,43,44 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=34,35,36,37,38,39,40,41,42,43,44,45 "Built target glfw"
 .PHONY : src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -548,7 +566,7 @@ src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/clean:
 src/Renderer/lib/GLFW/examples/CMakeFiles/boing.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/examples/CMakeFiles/boing.dir/build.make src/Renderer/lib/GLFW/examples/CMakeFiles/boing.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/examples/CMakeFiles/boing.dir/build.make src/Renderer/lib/GLFW/examples/CMakeFiles/boing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=12,13 "Built target boing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=13,14 "Built target boing"
 .PHONY : src/Renderer/lib/GLFW/examples/CMakeFiles/boing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -574,7 +592,7 @@ src/Renderer/lib/GLFW/examples/CMakeFiles/boing.dir/clean:
 src/Renderer/lib/GLFW/examples/CMakeFiles/gears.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/examples/CMakeFiles/gears.dir/build.make src/Renderer/lib/GLFW/examples/CMakeFiles/gears.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/examples/CMakeFiles/gears.dir/build.make src/Renderer/lib/GLFW/examples/CMakeFiles/gears.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=29,30 "Built target gears"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=30,31 "Built target gears"
 .PHONY : src/Renderer/lib/GLFW/examples/CMakeFiles/gears.dir/all
 
 # Build rule for subdir invocation for target.
@@ -600,12 +618,12 @@ src/Renderer/lib/GLFW/examples/CMakeFiles/gears.dir/clean:
 src/Renderer/lib/GLFW/examples/CMakeFiles/heightmap.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/examples/CMakeFiles/heightmap.dir/build.make src/Renderer/lib/GLFW/examples/CMakeFiles/heightmap.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/examples/CMakeFiles/heightmap.dir/build.make src/Renderer/lib/GLFW/examples/CMakeFiles/heightmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=49,50 "Built target heightmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=49,50,51 "Built target heightmap"
 .PHONY : src/Renderer/lib/GLFW/examples/CMakeFiles/heightmap.dir/all
 
 # Build rule for subdir invocation for target.
 src/Renderer/lib/GLFW/examples/CMakeFiles/heightmap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Renderer/lib/GLFW/examples/CMakeFiles/heightmap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 0
 .PHONY : src/Renderer/lib/GLFW/examples/CMakeFiles/heightmap.dir/rule
@@ -756,12 +774,12 @@ src/Renderer/lib/GLFW/examples/CMakeFiles/splitview.dir/clean:
 src/Renderer/lib/GLFW/examples/CMakeFiles/wave.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/examples/CMakeFiles/wave.dir/build.make src/Renderer/lib/GLFW/examples/CMakeFiles/wave.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/examples/CMakeFiles/wave.dir/build.make src/Renderer/lib/GLFW/examples/CMakeFiles/wave.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=95,96,97 "Built target wave"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=96,97 "Built target wave"
 .PHONY : src/Renderer/lib/GLFW/examples/CMakeFiles/wave.dir/all
 
 # Build rule for subdir invocation for target.
 src/Renderer/lib/GLFW/examples/CMakeFiles/wave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Renderer/lib/GLFW/examples/CMakeFiles/wave.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 0
 .PHONY : src/Renderer/lib/GLFW/examples/CMakeFiles/wave.dir/rule
@@ -782,7 +800,7 @@ src/Renderer/lib/GLFW/examples/CMakeFiles/wave.dir/clean:
 src/Renderer/lib/GLFW/tests/CMakeFiles/clipboard.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/clipboard.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/clipboard.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/clipboard.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/clipboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=14,15,16 "Built target clipboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=15,16,17 "Built target clipboard"
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/clipboard.dir/all
 
 # Build rule for subdir invocation for target.
@@ -808,7 +826,7 @@ src/Renderer/lib/GLFW/tests/CMakeFiles/clipboard.dir/clean:
 src/Renderer/lib/GLFW/tests/CMakeFiles/events.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/events.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/events.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/events.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/events.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=22,23,24 "Built target events"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=23,24,25 "Built target events"
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/events.dir/all
 
 # Build rule for subdir invocation for target.
@@ -860,12 +878,12 @@ src/Renderer/lib/GLFW/tests/CMakeFiles/msaa.dir/clean:
 src/Renderer/lib/GLFW/tests/CMakeFiles/glfwinfo.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/glfwinfo.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/glfwinfo.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/glfwinfo.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/glfwinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=45,46,47,48 "Built target glfwinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=46,47,48 "Built target glfwinfo"
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/glfwinfo.dir/all
 
 # Build rule for subdir invocation for target.
 src/Renderer/lib/GLFW/tests/CMakeFiles/glfwinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Renderer/lib/GLFW/tests/CMakeFiles/glfwinfo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 0
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/glfwinfo.dir/rule
@@ -886,7 +904,7 @@ src/Renderer/lib/GLFW/tests/CMakeFiles/glfwinfo.dir/clean:
 src/Renderer/lib/GLFW/tests/CMakeFiles/iconify.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/iconify.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/iconify.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/iconify.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/iconify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=53,54,55 "Built target iconify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=54,55,56 "Built target iconify"
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/iconify.dir/all
 
 # Build rule for subdir invocation for target.
@@ -964,7 +982,7 @@ src/Renderer/lib/GLFW/tests/CMakeFiles/reopen.dir/clean:
 src/Renderer/lib/GLFW/tests/CMakeFiles/cursor.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/cursor.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/cursor.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/cursor.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/cursor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=17,18 "Built target cursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=18,19 "Built target cursor"
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/cursor.dir/all
 
 # Build rule for subdir invocation for target.
@@ -990,7 +1008,7 @@ src/Renderer/lib/GLFW/tests/CMakeFiles/cursor.dir/clean:
 src/Renderer/lib/GLFW/tests/CMakeFiles/empty.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/empty.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/empty.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/empty.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/empty.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=19,20,21 "Built target empty"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=20,21,22 "Built target empty"
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/empty.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1016,7 +1034,7 @@ src/Renderer/lib/GLFW/tests/CMakeFiles/empty.dir/clean:
 src/Renderer/lib/GLFW/tests/CMakeFiles/gamma.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/gamma.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/gamma.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/gamma.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/gamma.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=27,28 "Built target gamma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=28,29 "Built target gamma"
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/gamma.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1042,7 +1060,7 @@ src/Renderer/lib/GLFW/tests/CMakeFiles/gamma.dir/clean:
 src/Renderer/lib/GLFW/tests/CMakeFiles/icon.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/icon.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/icon.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/icon.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/icon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=51,52 "Built target icon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=52,53 "Built target icon"
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/icon.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1068,12 +1086,12 @@ src/Renderer/lib/GLFW/tests/CMakeFiles/icon.dir/clean:
 src/Renderer/lib/GLFW/tests/CMakeFiles/inputlag.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/inputlag.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/inputlag.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/inputlag.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/inputlag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=56,57,58 "Built target inputlag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=57,58 "Built target inputlag"
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/inputlag.dir/all
 
 # Build rule for subdir invocation for target.
 src/Renderer/lib/GLFW/tests/CMakeFiles/inputlag.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Renderer/lib/GLFW/tests/CMakeFiles/inputlag.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 0
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/inputlag.dir/rule
@@ -1146,12 +1164,12 @@ src/Renderer/lib/GLFW/tests/CMakeFiles/opacity.dir/clean:
 src/Renderer/lib/GLFW/tests/CMakeFiles/tearing.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/tearing.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/tearing.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/tearing.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/tearing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=83,84 "Built target tearing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=83,84,85 "Built target tearing"
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/tearing.dir/all
 
 # Build rule for subdir invocation for target.
 src/Renderer/lib/GLFW/tests/CMakeFiles/tearing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Renderer/lib/GLFW/tests/CMakeFiles/tearing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 0
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/tearing.dir/rule
@@ -1172,12 +1190,12 @@ src/Renderer/lib/GLFW/tests/CMakeFiles/tearing.dir/clean:
 src/Renderer/lib/GLFW/tests/CMakeFiles/threads.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/threads.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/threads.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/threads.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/threads.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=85,86,87 "Built target threads"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=86,87 "Built target threads"
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/threads.dir/all
 
 # Build rule for subdir invocation for target.
 src/Renderer/lib/GLFW/tests/CMakeFiles/threads.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Renderer/lib/GLFW/tests/CMakeFiles/threads.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 0
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/threads.dir/rule
@@ -1198,12 +1216,12 @@ src/Renderer/lib/GLFW/tests/CMakeFiles/threads.dir/clean:
 src/Renderer/lib/GLFW/tests/CMakeFiles/timeout.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/timeout.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/timeout.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/timeout.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/timeout.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=88,89 "Built target timeout"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=88,89,90 "Built target timeout"
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/timeout.dir/all
 
 # Build rule for subdir invocation for target.
 src/Renderer/lib/GLFW/tests/CMakeFiles/timeout.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Renderer/lib/GLFW/tests/CMakeFiles/timeout.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 0
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/timeout.dir/rule
@@ -1224,12 +1242,12 @@ src/Renderer/lib/GLFW/tests/CMakeFiles/timeout.dir/clean:
 src/Renderer/lib/GLFW/tests/CMakeFiles/title.dir/all: src/Renderer/lib/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/title.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/title.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Renderer/lib/GLFW/tests/CMakeFiles/title.dir/build.make src/Renderer/lib/GLFW/tests/CMakeFiles/title.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=90,91,92 "Built target title"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=91,92 "Built target title"
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/title.dir/all
 
 # Build rule for subdir invocation for target.
 src/Renderer/lib/GLFW/tests/CMakeFiles/title.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Renderer/lib/GLFW/tests/CMakeFiles/title.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles 0
 .PHONY : src/Renderer/lib/GLFW/tests/CMakeFiles/title.dir/rule

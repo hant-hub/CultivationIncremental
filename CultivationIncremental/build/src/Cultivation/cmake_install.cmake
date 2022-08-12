@@ -47,3 +47,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/src/Cultivation/Physical/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/src/Cultivation/Spiritual/cmake_install.cmake")
+endif()
+

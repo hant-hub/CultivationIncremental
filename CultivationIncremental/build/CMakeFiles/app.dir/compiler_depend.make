@@ -233,7 +233,18 @@ CMakeFiles/app.dir/cmake_pch.hxx.gch: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/include/c++/9/bits/std_function.h \
   /usr/include/c++/9/mutex \
   /usr/include/c++/9/bits/std_mutex.h \
-  /usr/include/c++/9/bits/unique_lock.h
+  /usr/include/c++/9/bits/unique_lock.h \
+  /usr/include/c++/9/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h
 
 CMakeFiles/app.dir/src/Cultivation/Cultivation.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Cultivation/Cultivation.cpp \
@@ -241,7 +252,9 @@ CMakeFiles/app.dir/src/Cultivation/Cultivation.cpp.o: CMakeFiles/app.dir/cmake_p
   ../src/Cultivation/Cultivation.h \
   ../src/Cultivation/Physical/pcultivation.h \
   ../src/Cultivation/util.h \
-  ../src/Cultivation/Physical/resources.h
+  ../src/Cultivation/Physical/resources.h \
+  ../src/Cultivation/Spiritual/scultivation.h \
+  ../src/Cultivation/Spiritual/resources.h
 
 CMakeFiles/app.dir/src/Cultivation/Physical/pcultivation.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Cultivation/Physical/pcultivation.cpp \
@@ -250,7 +263,24 @@ CMakeFiles/app.dir/src/Cultivation/Physical/pcultivation.cpp.o: CMakeFiles/app.d
   ../src/Cultivation/util.h \
   ../src/Cultivation/Physical/resources.h \
   ../src/Cultivation/Physical/actions.h \
+  ../src/Cultivation/Cultivation.h \
+  ../src/Cultivation/Spiritual/scultivation.h \
+  ../src/Cultivation/Spiritual/resources.h \
   ../src/Cultivation/Physical/ticks.h
+
+CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
+  ../src/Cultivation/Spiritual/scultivation.cpp \
+  /usr/include/stdc-predef.h \
+  ../src/Cultivation/Spiritual/scultivation.h \
+  ../src/Cultivation/util.h \
+  ../src/Cultivation/Spiritual/resources.h \
+  ../src/Cultivation/Spiritual/actions.h \
+  ../src/Cultivation/Spiritual/ticks.h
+
+CMakeFiles/app.dir/src/Cultivation/util.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
+  ../src/Cultivation/util.cpp \
+  /usr/include/stdc-predef.h \
+  ../src/Cultivation/util.h
 
 CMakeFiles/app.dir/src/Renderer/Camera.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Renderer/Camera.cpp \
@@ -269,23 +299,11 @@ CMakeFiles/app.dir/src/Renderer/Camera.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/include/c++/9/bits/cpp_type_traits.h \
   /usr/include/c++/9/ext/type_traits.h \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/features.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/9/bits/std_abs.h \
   ../src/Renderer/lib/GLM/glm/detail/setup.hpp \
   /usr/include/c++/9/cassert \
   /usr/include/assert.h \
+  /usr/include/features.h \
   /usr/include/c++/9/cstddef \
   ../src/Renderer/lib/GLM/glm/simd/platform.h \
   /usr/include/c++/9/cstdint \
@@ -294,6 +312,7 @@ CMakeFiles/app.dir/src/Renderer/Camera.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
   /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
@@ -535,23 +554,11 @@ CMakeFiles/app.dir/src/Renderer/RenderText.cpp.o: CMakeFiles/app.dir/cmake_pch.h
   /usr/include/c++/9/bits/cpp_type_traits.h \
   /usr/include/c++/9/ext/type_traits.h \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/features.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/9/bits/std_abs.h \
   ../src/Renderer/lib/GLM/glm/detail/setup.hpp \
   /usr/include/c++/9/cassert \
   /usr/include/assert.h \
+  /usr/include/features.h \
   /usr/include/c++/9/cstddef \
   ../src/Renderer/lib/GLM/glm/simd/platform.h \
   /usr/include/c++/9/cstdint \
@@ -560,6 +567,7 @@ CMakeFiles/app.dir/src/Renderer/RenderText.cpp.o: CMakeFiles/app.dir/cmake_pch.h
   /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
   /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
@@ -802,7 +810,8 @@ CMakeFiles/app.dir/src/Renderer/RenderText.cpp.o: CMakeFiles/app.dir/cmake_pch.h
   /usr/include/freetype2/freetype/ftimage.h \
   /usr/include/freetype2/freetype/fterrors.h \
   /usr/include/freetype2/freetype/ftmoderr.h \
-  /usr/include/freetype2/freetype/fterrdef.h
+  /usr/include/freetype2/freetype/fterrdef.h \
+  ../src/Renderer/Renderer.h
 
 CMakeFiles/app.dir/src/Renderer/Renderer.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Renderer/Renderer.cpp \
@@ -821,23 +830,11 @@ CMakeFiles/app.dir/src/Renderer/Renderer.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
   /usr/include/c++/9/bits/cpp_type_traits.h \
   /usr/include/c++/9/ext/type_traits.h \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/features.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/9/bits/std_abs.h \
   ../src/Renderer/lib/GLM/glm/detail/setup.hpp \
   /usr/include/c++/9/cassert \
   /usr/include/assert.h \
+  /usr/include/features.h \
   /usr/include/c++/9/cstddef \
   ../src/Renderer/lib/GLM/glm/simd/platform.h \
   /usr/include/c++/9/cstdint \
@@ -846,6 +843,7 @@ CMakeFiles/app.dir/src/Renderer/Renderer.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
   /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
   /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
@@ -1089,23 +1087,11 @@ CMakeFiles/app.dir/src/Renderer/Shader.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/include/c++/9/bits/cpp_type_traits.h \
   /usr/include/c++/9/ext/type_traits.h \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/features.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/9/bits/std_abs.h \
   ../src/Renderer/lib/GLM/glm/detail/setup.hpp \
   /usr/include/c++/9/cassert \
   /usr/include/assert.h \
+  /usr/include/features.h \
   /usr/include/c++/9/cstddef \
   ../src/Renderer/lib/GLM/glm/simd/platform.h \
   /usr/include/c++/9/cstdint \
@@ -1114,6 +1100,7 @@ CMakeFiles/app.dir/src/Renderer/Shader.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
   /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
@@ -1356,23 +1343,11 @@ CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/include/c++/9/bits/cpp_type_traits.h \
   /usr/include/c++/9/ext/type_traits.h \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/features.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/9/bits/std_abs.h \
   ../src/Renderer/lib/GLM/glm/detail/setup.hpp \
   /usr/include/c++/9/cassert \
   /usr/include/assert.h \
+  /usr/include/features.h \
   /usr/include/c++/9/cstddef \
   ../src/Renderer/lib/GLM/glm/simd/platform.h \
   /usr/include/c++/9/cstdint \
@@ -1381,6 +1356,7 @@ CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
   /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
@@ -1605,8 +1581,9 @@ CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/include/c++/9/bits/stl_multimap.h \
   /usr/include/c++/9/bits/range_access.h \
   /usr/include/c++/9/bits/erase_if.h \
-  ../src/Renderer/Shader.h \
-  ../src/Renderer/Camera.h
+  ../src/Renderer/Renderer.h \
+  ../src/Renderer/Camera.h \
+  ../src/Renderer/Shader.h
 
 CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Renderer/lib/STBIMAGE/stb_image.cpp \
@@ -1636,17 +1613,6 @@ CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o: CMakeFiles/app.dir
   /usr/include/c++/9/bits/cpp_type_traits.h \
   /usr/include/c++/9/ext/type_traits.h \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/9/bits/std_abs.h \
   /usr/include/assert.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h
@@ -1668,23 +1634,11 @@ CMakeFiles/app.dir/src/Util/Button.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/include/c++/9/bits/cpp_type_traits.h \
   /usr/include/c++/9/ext/type_traits.h \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/features.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/9/bits/std_abs.h \
   ../src/Renderer/lib/GLM/glm/detail/setup.hpp \
   /usr/include/c++/9/cassert \
   /usr/include/assert.h \
+  /usr/include/features.h \
   /usr/include/c++/9/cstddef \
   ../src/Renderer/lib/GLM/glm/simd/platform.h \
   /usr/include/c++/9/cstdint \
@@ -1693,6 +1647,7 @@ CMakeFiles/app.dir/src/Util/Button.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
   /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
@@ -1919,13 +1874,33 @@ CMakeFiles/app.dir/src/Util/Button.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/include/c++/9/bits/erase_if.h \
   ../src/Renderer/Shader.h \
   ../src/Renderer/Sprite.h \
-  ../src/Renderer/Camera.h \
-  ../src/Util/Panel.h \
   ../src/Renderer/Renderer.h \
+  ../src/Renderer/Camera.h \
+  ../src/Renderer/core.h \
+  ../src/Renderer/RenderText.h \
+  /usr/include/freetype2/ft2build.h \
+  /usr/include/freetype2/freetype/config/ftheader.h \
+  /usr/include/freetype2/freetype/freetype.h \
+  /usr/include/freetype2/freetype/config/ftconfig.h \
+  /usr/include/freetype2/freetype/config/ftoption.h \
+  /usr/include/freetype2/freetype/config/ftstdlib.h \
+  /usr/include/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+  /usr/include/freetype2/freetype/fttypes.h \
+  /usr/include/freetype2/freetype/ftsystem.h \
+  /usr/include/freetype2/freetype/ftimage.h \
+  /usr/include/freetype2/freetype/fterrors.h \
+  /usr/include/freetype2/freetype/ftmoderr.h \
+  /usr/include/freetype2/freetype/fterrdef.h \
+  ../src/Util/Panel.h \
   ../src/Cultivation/Cultivation.h \
   ../src/Cultivation/Physical/pcultivation.h \
   ../src/Cultivation/util.h \
-  ../src/Cultivation/Physical/resources.h
+  ../src/Cultivation/Physical/resources.h \
+  ../src/Cultivation/Spiritual/scultivation.h \
+  ../src/Cultivation/Spiritual/resources.h
 
 CMakeFiles/app.dir/src/Util/Panel.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Util/Panel.cpp \
@@ -1944,23 +1919,11 @@ CMakeFiles/app.dir/src/Util/Panel.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/include/c++/9/bits/cpp_type_traits.h \
   /usr/include/c++/9/ext/type_traits.h \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/features.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/9/bits/std_abs.h \
   ../src/Renderer/lib/GLM/glm/detail/setup.hpp \
   /usr/include/c++/9/cassert \
   /usr/include/assert.h \
+  /usr/include/features.h \
   /usr/include/c++/9/cstddef \
   ../src/Renderer/lib/GLM/glm/simd/platform.h \
   /usr/include/c++/9/cstdint \
@@ -1969,6 +1932,7 @@ CMakeFiles/app.dir/src/Util/Panel.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
   /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
@@ -2198,10 +2162,30 @@ CMakeFiles/app.dir/src/Util/Panel.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Util/Button.h \
   ../src/Renderer/Shader.h \
   ../src/Renderer/Sprite.h \
+  ../src/Renderer/core.h \
+  ../src/Renderer/RenderText.h \
+  /usr/include/freetype2/ft2build.h \
+  /usr/include/freetype2/freetype/config/ftheader.h \
+  /usr/include/freetype2/freetype/freetype.h \
+  /usr/include/freetype2/freetype/config/ftconfig.h \
+  /usr/include/freetype2/freetype/config/ftoption.h \
+  /usr/include/freetype2/freetype/config/ftstdlib.h \
+  /usr/include/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+  /usr/include/freetype2/freetype/fttypes.h \
+  /usr/include/freetype2/freetype/ftsystem.h \
+  /usr/include/freetype2/freetype/ftimage.h \
+  /usr/include/freetype2/freetype/fterrors.h \
+  /usr/include/freetype2/freetype/ftmoderr.h \
+  /usr/include/freetype2/freetype/fterrdef.h \
   ../src/Cultivation/Cultivation.h \
   ../src/Cultivation/Physical/pcultivation.h \
   ../src/Cultivation/util.h \
-  ../src/Cultivation/Physical/resources.h
+  ../src/Cultivation/Physical/resources.h \
+  ../src/Cultivation/Spiritual/scultivation.h \
+  ../src/Cultivation/Spiritual/resources.h
 
 CMakeFiles/app.dir/src/Util/scheduler.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Util/scheduler.cpp \
@@ -2227,23 +2211,11 @@ CMakeFiles/app.dir/src/Util/ui.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/include/c++/9/bits/cpp_type_traits.h \
   /usr/include/c++/9/ext/type_traits.h \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/features.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/9/bits/std_abs.h \
   ../src/Renderer/lib/GLM/glm/detail/setup.hpp \
   /usr/include/c++/9/cassert \
   /usr/include/assert.h \
+  /usr/include/features.h \
   /usr/include/c++/9/cstddef \
   ../src/Renderer/lib/GLM/glm/simd/platform.h \
   /usr/include/c++/9/cstdint \
@@ -2252,6 +2224,7 @@ CMakeFiles/app.dir/src/Util/ui.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
   /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
@@ -2500,6 +2473,8 @@ CMakeFiles/app.dir/src/Util/ui.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Cultivation/Physical/pcultivation.h \
   ../src/Cultivation/util.h \
   ../src/Cultivation/Physical/resources.h \
+  ../src/Cultivation/Spiritual/scultivation.h \
+  ../src/Cultivation/Spiritual/resources.h \
   ../src/Util/Panel.h \
   ../src/Util/Button.h
 
@@ -2514,6 +2489,8 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Cultivation/Physical/pcultivation.h \
   ../src/Cultivation/util.h \
   ../src/Cultivation/Physical/resources.h \
+  ../src/Cultivation/Spiritual/scultivation.h \
+  ../src/Cultivation/Spiritual/resources.h \
   ../src/Renderer/core.h \
   ../src/Renderer/Renderer.h \
   ../src/Renderer/renderlib.h \
@@ -2529,23 +2506,11 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/include/c++/9/bits/cpp_type_traits.h \
   /usr/include/c++/9/ext/type_traits.h \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/features.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/9/bits/std_abs.h \
   ../src/Renderer/lib/GLM/glm/detail/setup.hpp \
   /usr/include/c++/9/cassert \
   /usr/include/assert.h \
+  /usr/include/features.h \
   /usr/include/c++/9/cstddef \
   ../src/Renderer/lib/GLM/glm/simd/platform.h \
   /usr/include/c++/9/cstdint \
@@ -2554,6 +2519,7 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
   /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
@@ -2835,8 +2801,6 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 
 /usr/include/c++/9/bits/erase_if.h:
 
-/usr/include/c++/9/bits/stl_multimap.h:
-
 /usr/include/freetype2/freetype/fttypes.h:
 
 /usr/include/c++/9/map:
@@ -3105,11 +3069,17 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 
 /usr/include/c++/9/cassert:
 
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+../src/Renderer/lib/GLM/glm/glm.hpp:
 
-../src/Renderer/core.h:
+../src/Renderer/lib/GLM/glm/ext/matrix_float2x3_precision.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+../src/Renderer/lib/GLAD/include/glad/glad.h:
+
+../src/Renderer/renderlib.h:
+
+../src/Renderer/lib/GLM/glm/ext/scalar_int_sized.hpp:
+
+../src/Renderer/Camera.cpp:
 
 ../src/Renderer/Renderer.h:
 
@@ -3120,10 +3090,6 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 ../src/Renderer/lib/GLM/glm/gtc/quaternion.hpp:
 
 /usr/include/c++/9/tuple:
-
-../src/Renderer/lib/GLM/glm/ext/matrix_float2x3_precision.hpp:
-
-../src/Renderer/lib/GLAD/include/glad/glad.h:
 
 /usr/include/c++/9/ext/string_conversions.h:
 
@@ -3142,8 +3108,6 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 /usr/include/c++/9/bits/cxxabi_forced.h:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:
-
-../src/Renderer/renderlib.h:
 
 /usr/include/c++/9/bits/allocator.h:
 
@@ -3166,6 +3130,8 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 /usr/include/c++/9/ext/new_allocator.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/c++/9/bits/stl_tree.h:
 
@@ -3218,12 +3184,6 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/c++/9/initializer_list:
-
-../src/Renderer/lib/GLM/glm/detail/func_exponential.inl:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-../src/Renderer/lib/GLM/glm/detail/_fixes.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:
 
@@ -3311,6 +3271,8 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h:
 
+../src/Cultivation/util.cpp:
+
 /usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
@@ -3363,13 +3325,15 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 
 /usr/include/c++/9/bits/functional_hash.h:
 
-../src/Renderer/lib/GLM/glm/glm.hpp:
-
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 ../src/Renderer/lib/GLM/glm/ext/vector_float4_precision.hpp:
 
 /usr/include/c++/9/cwchar:
+
+../src/Renderer/Camera.h:
+
+/usr/include/sched.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
@@ -3577,8 +3541,6 @@ CMakeFiles/app.dir/cmake_pch.hxx.cxx:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
 /usr/include/c++/9/bits/sstream.tcc:
 
 /usr/include/c++/9/bits/stl_tempbuf.h:
@@ -3651,8 +3613,6 @@ CMakeFiles/app.dir/cmake_pch.hxx.cxx:
 
 ../src/fmt/include/fmt/core.h:
 
-/usr/include/c++/9/functional:
-
 /usr/include/c++/9/cstddef:
 
 /usr/include/c++/9/cstring:
@@ -3706,10 +3666,6 @@ CMakeFiles/app.dir/cmake_pch.hxx.cxx:
 /usr/include/c++/9/ctime:
 
 /usr/include/c++/9/memory:
-
-/usr/include/sched.h:
-
-../src/Renderer/Camera.h:
 
 /usr/include/c++/9/bits/uses_allocator.h:
 
@@ -3767,6 +3723,32 @@ CMakeFiles/app.dir/cmake_pch.hxx.cxx:
 
 /usr/include/c++/9/bits/stl_vector.h:
 
+/usr/include/c++/9/cmath:
+
+/usr/include/assert.h:
+
+../src/Cultivation/Spiritual/scultivation.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:
+
+/usr/include/math.h:
+
+/usr/include/freetype2/freetype/config/ftconfig.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+../src/Renderer/core.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+../src/Renderer/lib/GLM/glm/detail/func_exponential.inl:
+
+../src/Renderer/lib/GLM/glm/detail/_fixes.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
 ../src/Cultivation/Cultivation.h:
 
 ../src/Renderer/lib/GLM/glm/ext/matrix_double2x4_precision.hpp:
@@ -3779,20 +3761,16 @@ CMakeFiles/app.dir/cmake_pch.hxx.cxx:
 
 ../src/Cultivation/Physical/resources.h:
 
-../src/Renderer/lib/GLM/glm/ext/scalar_int_sized.hpp:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-../src/Renderer/Camera.cpp:
+../src/Cultivation/Spiritual/resources.h:
 
-/usr/include/c++/9/cmath:
+/usr/include/c++/9/functional:
 
-/usr/include/assert.h:
+../src/Cultivation/Spiritual/scultivation.cpp:
 
-/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:
+/usr/include/c++/9/bits/stl_multimap.h:
 
-/usr/include/math.h:
+../src/Cultivation/Spiritual/actions.h:
 
-/usr/include/freetype2/freetype/config/ftconfig.h:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+../src/Cultivation/Spiritual/ticks.h:

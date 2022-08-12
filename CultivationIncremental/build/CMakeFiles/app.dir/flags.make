@@ -16,7 +16,11 @@ CXX_FLAGS =   -pthread
 
 # PCH options: CMakeFiles/app.dir/src/Cultivation/Cultivation.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx
 
+# PCH options: CMakeFiles/app.dir/src/Cultivation/util.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx
+
 # PCH options: CMakeFiles/app.dir/src/Cultivation/Physical/pcultivation.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx
 
 # PCH options: CMakeFiles/app.dir/src/Renderer/Camera.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx
 

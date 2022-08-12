@@ -2,21 +2,27 @@
 
 namespace GLogic{
 
-    namespace Physical{
+    namespace Physical::Resources{
 
         //individual stages
         struct Mortal {
             Mortal() : fitness(0.0f), canAdvance(false) {}
             
-            std::string getRepr() {   return fmt::format("fitness = {}, canAdvance = {}", std::to_string(fitness), std::to_string(canAdvance));    }
+            std::string getRepr() {   return fmt::format("fitness = {}, canAdvance = {}", fitness, canAdvance);    }
             
             float fitness;
             bool canAdvance;
         };
 
         struct Foundation {
-            Foundation() {}
-            std::string getRepr() { return fmt::format("NO ATTRS"); }
+            Foundation() : vessels(0), progress(0.0f), canAdvance(false), maxstrength(0) {}
+            std::string getRepr() { return fmt::format("vessels = {}, progress = {}, canAdvance = {}, maxstrength = {}", vessels, progress, canAdvance, maxstrength); }
+
+            int vessels;
+            float progress;
+            bool canAdvance;
+            float maxstrength;
+
         };
 
         //main container
@@ -36,9 +42,9 @@ namespace GLogic{
        
 
 
-    }
+    };
 
-}
+};
 
 
 

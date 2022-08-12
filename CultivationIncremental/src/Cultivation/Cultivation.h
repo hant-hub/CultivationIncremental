@@ -1,12 +1,14 @@
 #pragma once
 #include "Physical/pcultivation.h"
+#include "Spiritual/scultivation.h"
 
 namespace GLogic{
 
 enum class CultivationType {
-    Physical,
-    Spiritual,
-    Mental
+    Physical = 0,
+    Spiritual = 1,
+    Mental = 2,
+    NONE = 3
 };
 
 
@@ -19,5 +21,6 @@ public:
     void update(float dt);
 
     Physical::Pcultivation p;
+    Spiritual::Scultivation s;
 };
 }

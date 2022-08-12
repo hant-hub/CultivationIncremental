@@ -21,7 +21,7 @@ public:
     friend class Button;
 
     const int GetStage() {return stage;}
-    const GLogic::CultivationType GetType() {return t;}
+    const unsigned int GetType() {return (unsigned int)t;}
 
     std::vector<Button *> buttons;
     Camera c;

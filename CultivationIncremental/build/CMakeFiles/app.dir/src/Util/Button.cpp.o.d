@@ -14,28 +14,18 @@ CMakeFiles/app.dir/src/Util/Button.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/c++/9/bits/cpp_type_traits.h \
  /usr/include/c++/9/ext/type_traits.h /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
- /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
- /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
- /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
  /usr/include/c++/9/bits/std_abs.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/lib/GLM/glm/../glm/detail/setup.hpp \
- /usr/include/c++/9/cassert /usr/include/assert.h \
+ /usr/include/c++/9/cassert /usr/include/assert.h /usr/include/features.h \
  /usr/include/c++/9/cstddef \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/lib/GLM/glm/../glm/detail/../simd/platform.h \
  /usr/include/c++/9/cstdint /usr/include/c++/9/type_traits \
  /usr/include/c++/9/climits \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
  /usr/include/linux/limits.h \
@@ -252,10 +242,29 @@ CMakeFiles/app.dir/src/Util/Button.cpp.o: \
  /usr/include/c++/9/bits/erase_if.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Renderer/Shader.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Renderer/Sprite.h \
- /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Renderer/Camera.h \
- /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/Panel.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Renderer/Renderer.h \
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Renderer/Camera.h \
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Renderer/core.h \
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Renderer/RenderText.h \
+ /usr/include/freetype2/ft2build.h \
+ /usr/include/freetype2/freetype/config/ftheader.h \
+ /usr/include/freetype2/freetype/freetype.h \
+ /usr/include/freetype2/freetype/config/ftconfig.h \
+ /usr/include/freetype2/freetype/config/ftoption.h \
+ /usr/include/freetype2/freetype/config/ftstdlib.h /usr/include/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+ /usr/include/freetype2/freetype/fttypes.h \
+ /usr/include/freetype2/freetype/ftsystem.h \
+ /usr/include/freetype2/freetype/ftimage.h \
+ /usr/include/freetype2/freetype/fterrors.h \
+ /usr/include/freetype2/freetype/ftmoderr.h \
+ /usr/include/freetype2/freetype/fterrdef.h \
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/Panel.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Cultivation/Cultivation.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Cultivation/Physical/pcultivation.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Cultivation/Physical/../util.h \
- /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Cultivation/Physical/resources.h
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Cultivation/Physical/resources.h \
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Cultivation/Spiritual/scultivation.h \
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Cultivation/Spiritual/resources.h

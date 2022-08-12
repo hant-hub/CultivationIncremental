@@ -178,4 +178,13 @@ CMakeFiles/app.dir/cmake_pch.hxx.gch: \
  /usr/include/c++/9/bits/stl_heap.h /usr/include/c++/9/bits/stl_queue.h \
  /usr/include/c++/9/functional /usr/include/c++/9/bits/std_function.h \
  /usr/include/c++/9/mutex /usr/include/c++/9/bits/std_mutex.h \
- /usr/include/c++/9/bits/unique_lock.h
+ /usr/include/c++/9/bits/unique_lock.h /usr/include/c++/9/cmath \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h

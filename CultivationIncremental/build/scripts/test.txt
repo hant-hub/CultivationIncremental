@@ -9,7 +9,7 @@ width: 100.0
 height: 100.0
 ID: 0
 
-B
+B 
 x: 50.0
 y: 0.0
 width: 100.0

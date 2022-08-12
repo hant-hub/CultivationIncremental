@@ -6,6 +6,10 @@
 #include "Camera.h"
 #include "ft2build.h"
 #include FT_FREETYPE_H  
+#include "Renderer.h"
+
+
+
 
 namespace Render {
 	struct Character {
@@ -18,7 +22,7 @@ namespace Render {
 
 	class TextRenderer {
 	public:
-		TextRenderer(std::string font, unsigned int height);
+		TextRenderer(Window& w, std::string font, unsigned int height);
 		~TextRenderer();
 
 
@@ -26,7 +30,9 @@ namespace Render {
 	
 		const Font GetFont() { return f; }
 	private:
+		Window& w;
 		Font f;
+		Render::Camera cam;
 		unsigned int VAO, VBO;
 	};
 }

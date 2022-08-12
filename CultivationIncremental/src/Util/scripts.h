@@ -9,7 +9,7 @@ namespace Scripts {
         int length;
     };
 
-    PanelArray CreatePanels(char * filepath, const char * buttonImage, Render::Window& w, Render::Shader& s) {
+    PanelArray CreatePanels(char * filepath, const char * buttonImage, Render::Window& w, Render::Shader& s, Render::Shader& t) {
         //Get Text file and download as string
         std::string scriptText;
 
@@ -81,6 +81,7 @@ namespace Scripts {
             for (std::string b : p) {
                 float x;
                 float y;
+                std::string text = "error: no text";
                 float width;
                 float height;
                 int id;
@@ -91,35 +92,28 @@ namespace Scripts {
                     auto end = parameter.length()-1;
 
                     if (parameter.find("x: ") != std::string::npos) {
-                        printf("this one  0\n");
                         auto start = parameter.find("x: ") + 3;
-                        auto end = parameter.find("\n");
-                        x = std::stof(parameter.substr(start, end-start));
+                        x = std::stof(parameter.substr(start, -1));
                     } else if (parameter.find("y: ") != std::string::npos) {
-                        printf("this one  1\n");
                         auto start = parameter.find("y: ") + 3;
-                        auto end = parameter.find("\n");
-                        y = std::stof(parameter.substr(start, end-start));
+                        y = std::stof(parameter.substr(start, -1));
+                    } else if (parameter.find("text: ") != std::string::npos) {
+                        auto start = parameter.find("text: ") + 6;
+                        text = parameter.substr(start, -1);
                     } else if (parameter.find("width: ") != std::string::npos) {
-                        printf("this one  2\n");
                         auto start = parameter.find("width: ") + 7;
-                        auto end = parameter.find("\n");
-                        width = std::stof(parameter.substr(start, end-start));
+                        width = std::stof(parameter.substr(start, -1));
                     } else if (parameter.find("height: ") != std::string::npos) {
-                        printf("this one  3\n");
                         auto start = parameter.find("height: ") + 8;
-                        auto end = parameter.find("\n");
-                        height = std::stof(parameter.substr(start, end-start));
+                        height = std::stof(parameter.substr(start, -1));
                     } else if (parameter.find("ID: ") != std::string::npos) {
-                        printf("this one  4\n");
                         auto start = parameter.find("ID: ") + 4;
-                        auto end = parameter.find("\n");
-                        id = std::stof(parameter.substr(start, end-start));
+                        id = std::stof(parameter.substr(start, -1));
                     }
                 }
             
                 printf("x: %f y: %f width: %f height: %f ID: %i\n", x, y, width, height, id);
-                new Render::Button(&s, panels[index], buttonImage, x, y, width, height, id);
+                new Render::Button(&s, &t, panels[index], w, text.c_str(), buttonImage, x, y, width, height, id);
             }
             index++;
             

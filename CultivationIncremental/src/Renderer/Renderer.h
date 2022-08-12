@@ -9,11 +9,12 @@ namespace Render {
 		GLFWwindow* window;
 		int width;
 		int height;
+		void Resize(GLFWwindow* _, int w, int h);
 	};
 	
 	
 
-	Window CreateWindow(int width, int height);
+	Window* CreateWindow(int width, int height);
 
-
+	static std::vector<Window> windows;
 };

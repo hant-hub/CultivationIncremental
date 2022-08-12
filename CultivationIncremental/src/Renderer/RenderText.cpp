@@ -1,7 +1,7 @@
 #include "renderlib.h"
 #include "RenderText.h"
 
-Render::TextRenderer::TextRenderer(std::string font, unsigned int height)
+Render::TextRenderer::TextRenderer(Window& w, std::string font, unsigned int height) : w(w), cam(0.0f, 0.0f, (float)w.width, (float)w.height)
 {
 	//load font library--------------------------
 	FT_Library ft;
@@ -91,7 +91,8 @@ Render::TextRenderer::~TextRenderer()
 void Render::TextRenderer::RenderText(Shader& s, std::string text, float x, float y, float scale, glm::vec3 color)
 {
 	s.Use();
-	s.SetMat4("projection", glm::ortho(0.0f, 800.0f, 600.0f, 0.0f, -1.0f, 1.0f));
+	s.SetMat4("view", cam.GetView());
+	s.SetMat4("projection", glm::ortho(0.0f, (float)w.width, (float)w.height, 0.0f, -1.0f, 1.0f));
 	s.SetVec3("textColor", color);
 	glBindVertexArray(VAO);
 	glActiveTexture(GL_TEXTURE0);

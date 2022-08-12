@@ -1,13 +1,16 @@
 #pragma once
 #include "renderlib.h"
+#include "Renderer.h"
 #include "Shader.h"
 #include "Camera.h"
+
+
 
 namespace Render {
 	class Sprite
 	{
 	public:
-		Sprite(const char* filepath, float x, float y, float width, float height, float rotation, Shader* s);
+		Sprite(Window& w, const char* filepath, float x, float y, float width, float height, float rotation, Shader* s);
 		~Sprite();
 
 		void Draw(Camera& c);
@@ -18,6 +21,7 @@ namespace Render {
 
 
 	private:
+		Window& w;
 		unsigned int VAO;
 		unsigned int VBO;
 		unsigned int texture;
