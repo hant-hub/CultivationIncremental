@@ -12,13 +12,12 @@ struct Mortal {
     bool canAdvance;
 };
 
-struct Foundation {
-    Foundation(): meridians(0), qi(0.0f), canAdvance(false) {}
+struct QiGathering {
+    QiGathering(): QiStrands(0.0f), canAdvance(false) {}
 
-    std::string getRepr() { return fmt::format("Meridians = {}, Qi = {}, canAdvance = {}", meridians, qi, canAdvance); }
+    std::string getRepr() { return fmt::format("QiStrands = {}, canAdvance = {}", QiStrands, canAdvance); }
 
-    float qi;
-    int meridians;
+    float QiStrands;
     bool canAdvance;
     float cultivationspeed;
 };
@@ -27,14 +26,14 @@ struct Foundation {
 
 //main container
 struct CultivationStage {
-    CultivationStage(): m(Mortal()), f(Foundation()) {}
+    CultivationStage(): m(Mortal()), qg(QiGathering()) {}
 
-    std::string getRepr() { return fmt::format("Mortal: {}\nFoundation: {}", m.getRepr(), f.getRepr()); }
+    std::string getRepr() { return fmt::format("Mortal: {}\nQiGathering: {}", m.getRepr(), qg.getRepr()); }
 
 
 
     Mortal m;
-    Foundation f;
+    QiGathering qg;
 };
 
 

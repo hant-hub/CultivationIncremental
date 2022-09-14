@@ -245,6 +245,7 @@ CMakeFiles/app.dir/src/Util/Panel.cpp.o: \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/Button.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Renderer/Shader.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Renderer/Sprite.h \
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Renderer/Animation2D.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Renderer/core.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Renderer/RenderText.h \
  /usr/include/freetype2/ft2build.h \
@@ -266,5 +267,8 @@ CMakeFiles/app.dir/src/Util/Panel.cpp.o: \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Cultivation/Physical/pcultivation.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Cultivation/Physical/../util.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Cultivation/Physical/resources.h \
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Cultivation/Physical/Techniques/methods_lib.h \
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Cultivation/Physical/Techniques/Base.h \
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Cultivation/Physical/Techniques/techniques.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Cultivation/Spiritual/scultivation.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/../Cultivation/Spiritual/resources.h

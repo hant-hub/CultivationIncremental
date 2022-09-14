@@ -1,6 +1,7 @@
 #pragma once
 #include "pcultivation.h"
 #include "../Cultivation.h"
+#include "Techniques/methods_lib.h"
 
 namespace GLogic{
    class Cultivation;
@@ -10,17 +11,20 @@ namespace Physical {
 //basic physical training
 void Action00(Pcultivation& c){
    
-   if (c.data.m.fitness < 10.0f) {
-    c.data.m.fitness += 1.0f;
-   } else if (c.data.m.fitness < 20.0f){
-    c.data.m.fitness += 0.01f;
+   float increase = 1.0f;
+   if (c.data.m.fitness > 10.0f){
+    increase = 0.01f;
    }
+
+   increase = Techniques::meth[c.method].Modify(Techniques::ModType::Exercise, increase);
+   c.data.m.fitness += increase;
+
 }
 
 //breakthrough
 void Action01(Pcultivation& c) {
    if (c.data.m.canAdvance) {
-      c.stage = Foundation;
+      c.stage = VesselOpening;
    }
 }
 
@@ -28,6 +32,8 @@ void Action01(Pcultivation& c) {
 void Action10(Pcultivation& c){
 
    if (c.data.f.vessels == 12) return;
+
+   
 
    if (c.data.f.progress >= 1.0f) {
 
@@ -53,10 +59,12 @@ void Action10(Pcultivation& c){
    }
 }
 
+
+//test for getting parent and sibling data
 void Action11(Pcultivation& c) {
-   const Cultivation& cul = c.GetParent();
-   const Spiritual::Resources::CultivationStage dat = cul.s.GetData();
-   printf("%i", dat.m.canAdvance);
+   if (c.data.f.canAdvance) {
+      c.stage = SkinRefinement;
+   }
 }
 
 

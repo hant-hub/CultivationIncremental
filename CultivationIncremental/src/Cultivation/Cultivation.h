@@ -20,6 +20,8 @@ public:
 
     void update(float dt);
 
+    const std::string Repr(){return fmt::format("Physical (\n{}\n) \n\n Spiritual (\n{}\n)", p.GetCultivation(), s.GetCultivation()); }
+
     Physical::Pcultivation p;
     Spiritual::Scultivation s;
 };

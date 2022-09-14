@@ -164,12 +164,28 @@ CMakeFiles/app.dir/src/Cultivation/Physical/pcultivation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/Cultivation/Physical/pcultivation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -S /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Physical/pcultivation.cpp -o CMakeFiles/app.dir/src/Cultivation/Physical/pcultivation.cpp.s
 
+CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.o: ../src/Cultivation/Physical/Techniques/Base.cpp
+CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
+CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx.gch
+CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -MD -MT CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.o -MF CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.o.d -o CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.o -c /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Physical/Techniques/Base.cpp
+
+CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -E /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Physical/Techniques/Base.cpp > CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.i
+
+CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -S /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Physical/Techniques/Base.cpp -o CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.s
+
 CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o: ../src/Cultivation/Spiritual/scultivation.cpp
 CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
 CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx.gch
 CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -MD -MT CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o -MF CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o.d -o CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o -c /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Spiritual/scultivation.cpp
 
 CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.i: cmake_force
@@ -180,12 +196,28 @@ CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -S /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Spiritual/scultivation.cpp -o CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.s
 
+CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.o: ../src/Cultivation/Spiritual/Techniques/Base.cpp
+CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
+CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx.gch
+CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -MD -MT CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.o -MF CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.o.d -o CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.o -c /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Spiritual/Techniques/Base.cpp
+
+CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -E /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Spiritual/Techniques/Base.cpp > CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.i
+
+CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -S /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Spiritual/Techniques/Base.cpp -o CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.s
+
 CMakeFiles/app.dir/src/Renderer/Camera.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/Renderer/Camera.cpp.o: ../src/Renderer/Camera.cpp
 CMakeFiles/app.dir/src/Renderer/Camera.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
 CMakeFiles/app.dir/src/Renderer/Camera.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx.gch
 CMakeFiles/app.dir/src/Renderer/Camera.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/app.dir/src/Renderer/Camera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/app.dir/src/Renderer/Camera.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -MD -MT CMakeFiles/app.dir/src/Renderer/Camera.cpp.o -MF CMakeFiles/app.dir/src/Renderer/Camera.cpp.o.d -o CMakeFiles/app.dir/src/Renderer/Camera.cpp.o -c /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Camera.cpp
 
 CMakeFiles/app.dir/src/Renderer/Camera.cpp.i: cmake_force
@@ -201,7 +233,7 @@ CMakeFiles/app.dir/src/Renderer/Renderer.cpp.o: ../src/Renderer/Renderer.cpp
 CMakeFiles/app.dir/src/Renderer/Renderer.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
 CMakeFiles/app.dir/src/Renderer/Renderer.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx.gch
 CMakeFiles/app.dir/src/Renderer/Renderer.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/app.dir/src/Renderer/Renderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/app.dir/src/Renderer/Renderer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -MD -MT CMakeFiles/app.dir/src/Renderer/Renderer.cpp.o -MF CMakeFiles/app.dir/src/Renderer/Renderer.cpp.o.d -o CMakeFiles/app.dir/src/Renderer/Renderer.cpp.o -c /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Renderer.cpp
 
 CMakeFiles/app.dir/src/Renderer/Renderer.cpp.i: cmake_force
@@ -217,7 +249,7 @@ CMakeFiles/app.dir/src/Renderer/RenderText.cpp.o: ../src/Renderer/RenderText.cpp
 CMakeFiles/app.dir/src/Renderer/RenderText.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
 CMakeFiles/app.dir/src/Renderer/RenderText.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx.gch
 CMakeFiles/app.dir/src/Renderer/RenderText.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/app.dir/src/Renderer/RenderText.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/app.dir/src/Renderer/RenderText.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -MD -MT CMakeFiles/app.dir/src/Renderer/RenderText.cpp.o -MF CMakeFiles/app.dir/src/Renderer/RenderText.cpp.o.d -o CMakeFiles/app.dir/src/Renderer/RenderText.cpp.o -c /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/RenderText.cpp
 
 CMakeFiles/app.dir/src/Renderer/RenderText.cpp.i: cmake_force
@@ -233,7 +265,7 @@ CMakeFiles/app.dir/src/Renderer/Shader.cpp.o: ../src/Renderer/Shader.cpp
 CMakeFiles/app.dir/src/Renderer/Shader.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
 CMakeFiles/app.dir/src/Renderer/Shader.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx.gch
 CMakeFiles/app.dir/src/Renderer/Shader.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/app.dir/src/Renderer/Shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/app.dir/src/Renderer/Shader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -MD -MT CMakeFiles/app.dir/src/Renderer/Shader.cpp.o -MF CMakeFiles/app.dir/src/Renderer/Shader.cpp.o.d -o CMakeFiles/app.dir/src/Renderer/Shader.cpp.o -c /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Shader.cpp
 
 CMakeFiles/app.dir/src/Renderer/Shader.cpp.i: cmake_force
@@ -249,7 +281,7 @@ CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o: ../src/Renderer/Sprite.cpp
 CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
 CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx.gch
 CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -MD -MT CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o -MF CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o.d -o CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o -c /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Sprite.cpp
 
 CMakeFiles/app.dir/src/Renderer/Sprite.cpp.i: cmake_force
@@ -260,12 +292,28 @@ CMakeFiles/app.dir/src/Renderer/Sprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/Renderer/Sprite.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -S /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Sprite.cpp -o CMakeFiles/app.dir/src/Renderer/Sprite.cpp.s
 
+CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.o: ../src/Renderer/Animation2D.cpp
+CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
+CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx.gch
+CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -MD -MT CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.o -MF CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.o.d -o CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.o -c /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Animation2D.cpp
+
+CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -E /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Animation2D.cpp > CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.i
+
+CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -S /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Animation2D.cpp -o CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.s
+
 CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o: ../src/Renderer/lib/STBIMAGE/stb_image.cpp
 CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
 CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx.gch
 CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -MD -MT CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o -MF CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o.d -o CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o -c /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/lib/STBIMAGE/stb_image.cpp
 
 CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.i: cmake_force
@@ -281,7 +329,7 @@ CMakeFiles/app.dir/src/Util/scheduler.cpp.o: ../src/Util/scheduler.cpp
 CMakeFiles/app.dir/src/Util/scheduler.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
 CMakeFiles/app.dir/src/Util/scheduler.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx.gch
 CMakeFiles/app.dir/src/Util/scheduler.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/app.dir/src/Util/scheduler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/app.dir/src/Util/scheduler.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -MD -MT CMakeFiles/app.dir/src/Util/scheduler.cpp.o -MF CMakeFiles/app.dir/src/Util/scheduler.cpp.o.d -o CMakeFiles/app.dir/src/Util/scheduler.cpp.o -c /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/scheduler.cpp
 
 CMakeFiles/app.dir/src/Util/scheduler.cpp.i: cmake_force
@@ -297,7 +345,7 @@ CMakeFiles/app.dir/src/Util/Button.cpp.o: ../src/Util/Button.cpp
 CMakeFiles/app.dir/src/Util/Button.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
 CMakeFiles/app.dir/src/Util/Button.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx.gch
 CMakeFiles/app.dir/src/Util/Button.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/app.dir/src/Util/Button.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/app.dir/src/Util/Button.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -MD -MT CMakeFiles/app.dir/src/Util/Button.cpp.o -MF CMakeFiles/app.dir/src/Util/Button.cpp.o.d -o CMakeFiles/app.dir/src/Util/Button.cpp.o -c /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/Button.cpp
 
 CMakeFiles/app.dir/src/Util/Button.cpp.i: cmake_force
@@ -313,7 +361,7 @@ CMakeFiles/app.dir/src/Util/Panel.cpp.o: ../src/Util/Panel.cpp
 CMakeFiles/app.dir/src/Util/Panel.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
 CMakeFiles/app.dir/src/Util/Panel.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx.gch
 CMakeFiles/app.dir/src/Util/Panel.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/app.dir/src/Util/Panel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/app.dir/src/Util/Panel.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -MD -MT CMakeFiles/app.dir/src/Util/Panel.cpp.o -MF CMakeFiles/app.dir/src/Util/Panel.cpp.o.d -o CMakeFiles/app.dir/src/Util/Panel.cpp.o -c /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/Panel.cpp
 
 CMakeFiles/app.dir/src/Util/Panel.cpp.i: cmake_force
@@ -329,7 +377,7 @@ CMakeFiles/app.dir/src/Util/ui.cpp.o: ../src/Util/ui.cpp
 CMakeFiles/app.dir/src/Util/ui.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx
 CMakeFiles/app.dir/src/Util/ui.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx.gch
 CMakeFiles/app.dir/src/Util/ui.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/app.dir/src/Util/ui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/app.dir/src/Util/ui.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx -MD -MT CMakeFiles/app.dir/src/Util/ui.cpp.o -MF CMakeFiles/app.dir/src/Util/ui.cpp.o.d -o CMakeFiles/app.dir/src/Util/ui.cpp.o -c /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Util/ui.cpp
 
 CMakeFiles/app.dir/src/Util/ui.cpp.i: cmake_force
@@ -347,12 +395,15 @@ app_OBJECTS = \
 "CMakeFiles/app.dir/src/Cultivation/Cultivation.cpp.o" \
 "CMakeFiles/app.dir/src/Cultivation/util.cpp.o" \
 "CMakeFiles/app.dir/src/Cultivation/Physical/pcultivation.cpp.o" \
+"CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.o" \
 "CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o" \
+"CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.o" \
 "CMakeFiles/app.dir/src/Renderer/Camera.cpp.o" \
 "CMakeFiles/app.dir/src/Renderer/Renderer.cpp.o" \
 "CMakeFiles/app.dir/src/Renderer/RenderText.cpp.o" \
 "CMakeFiles/app.dir/src/Renderer/Shader.cpp.o" \
 "CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o" \
+"CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.o" \
 "CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o" \
 "CMakeFiles/app.dir/src/Util/scheduler.cpp.o" \
 "CMakeFiles/app.dir/src/Util/Button.cpp.o" \
@@ -368,12 +419,15 @@ app: CMakeFiles/app.dir/src/main.cpp.o
 app: CMakeFiles/app.dir/src/Cultivation/Cultivation.cpp.o
 app: CMakeFiles/app.dir/src/Cultivation/util.cpp.o
 app: CMakeFiles/app.dir/src/Cultivation/Physical/pcultivation.cpp.o
+app: CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.o
 app: CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o
+app: CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.o
 app: CMakeFiles/app.dir/src/Renderer/Camera.cpp.o
 app: CMakeFiles/app.dir/src/Renderer/Renderer.cpp.o
 app: CMakeFiles/app.dir/src/Renderer/RenderText.cpp.o
 app: CMakeFiles/app.dir/src/Renderer/Shader.cpp.o
 app: CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o
+app: CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.o
 app: CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o
 app: CMakeFiles/app.dir/src/Util/scheduler.cpp.o
 app: CMakeFiles/app.dir/src/Util/Button.cpp.o
@@ -388,7 +442,7 @@ app: /usr/lib/x86_64-linux-gnu/librt.so
 app: /usr/lib/x86_64-linux-gnu/libm.so
 app: /usr/lib/x86_64-linux-gnu/libX11.so
 app: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

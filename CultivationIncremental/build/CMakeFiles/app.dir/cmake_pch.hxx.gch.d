@@ -187,4 +187,8 @@ CMakeFiles/app.dir/cmake_pch.hxx.gch: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/9/unordered_map /usr/include/c++/9/bits/hashtable.h \
+ /usr/include/c++/9/bits/hashtable_policy.h \
+ /usr/include/c++/9/bits/unordered_map.h \
+ /usr/include/c++/9/bits/erase_if.h

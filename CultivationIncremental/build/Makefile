@@ -655,6 +655,30 @@ src/Cultivation/Cultivation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Cultivation/Cultivation.cpp.s
 .PHONY : src/Cultivation/Cultivation.cpp.s
 
+src/Cultivation/Physical/Techniques/Base.o: src/Cultivation/Physical/Techniques/Base.cpp.o
+.PHONY : src/Cultivation/Physical/Techniques/Base.o
+
+# target to build an object file
+src/Cultivation/Physical/Techniques/Base.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.o
+.PHONY : src/Cultivation/Physical/Techniques/Base.cpp.o
+
+src/Cultivation/Physical/Techniques/Base.i: src/Cultivation/Physical/Techniques/Base.cpp.i
+.PHONY : src/Cultivation/Physical/Techniques/Base.i
+
+# target to preprocess a source file
+src/Cultivation/Physical/Techniques/Base.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.i
+.PHONY : src/Cultivation/Physical/Techniques/Base.cpp.i
+
+src/Cultivation/Physical/Techniques/Base.s: src/Cultivation/Physical/Techniques/Base.cpp.s
+.PHONY : src/Cultivation/Physical/Techniques/Base.s
+
+# target to generate assembly for a file
+src/Cultivation/Physical/Techniques/Base.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.s
+.PHONY : src/Cultivation/Physical/Techniques/Base.cpp.s
+
 src/Cultivation/Physical/pcultivation.o: src/Cultivation/Physical/pcultivation.cpp.o
 .PHONY : src/Cultivation/Physical/pcultivation.o
 
@@ -678,6 +702,30 @@ src/Cultivation/Physical/pcultivation.s: src/Cultivation/Physical/pcultivation.c
 src/Cultivation/Physical/pcultivation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Cultivation/Physical/pcultivation.cpp.s
 .PHONY : src/Cultivation/Physical/pcultivation.cpp.s
+
+src/Cultivation/Spiritual/Techniques/Base.o: src/Cultivation/Spiritual/Techniques/Base.cpp.o
+.PHONY : src/Cultivation/Spiritual/Techniques/Base.o
+
+# target to build an object file
+src/Cultivation/Spiritual/Techniques/Base.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.o
+.PHONY : src/Cultivation/Spiritual/Techniques/Base.cpp.o
+
+src/Cultivation/Spiritual/Techniques/Base.i: src/Cultivation/Spiritual/Techniques/Base.cpp.i
+.PHONY : src/Cultivation/Spiritual/Techniques/Base.i
+
+# target to preprocess a source file
+src/Cultivation/Spiritual/Techniques/Base.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.i
+.PHONY : src/Cultivation/Spiritual/Techniques/Base.cpp.i
+
+src/Cultivation/Spiritual/Techniques/Base.s: src/Cultivation/Spiritual/Techniques/Base.cpp.s
+.PHONY : src/Cultivation/Spiritual/Techniques/Base.s
+
+# target to generate assembly for a file
+src/Cultivation/Spiritual/Techniques/Base.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.s
+.PHONY : src/Cultivation/Spiritual/Techniques/Base.cpp.s
 
 src/Cultivation/Spiritual/scultivation.o: src/Cultivation/Spiritual/scultivation.cpp.o
 .PHONY : src/Cultivation/Spiritual/scultivation.o
@@ -726,6 +774,30 @@ src/Cultivation/util.s: src/Cultivation/util.cpp.s
 src/Cultivation/util.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Cultivation/util.cpp.s
 .PHONY : src/Cultivation/util.cpp.s
+
+src/Renderer/Animation2D.o: src/Renderer/Animation2D.cpp.o
+.PHONY : src/Renderer/Animation2D.o
+
+# target to build an object file
+src/Renderer/Animation2D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.o
+.PHONY : src/Renderer/Animation2D.cpp.o
+
+src/Renderer/Animation2D.i: src/Renderer/Animation2D.cpp.i
+.PHONY : src/Renderer/Animation2D.i
+
+# target to preprocess a source file
+src/Renderer/Animation2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.i
+.PHONY : src/Renderer/Animation2D.cpp.i
+
+src/Renderer/Animation2D.s: src/Renderer/Animation2D.cpp.s
+.PHONY : src/Renderer/Animation2D.s
+
+# target to generate assembly for a file
+src/Renderer/Animation2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.s
+.PHONY : src/Renderer/Animation2D.cpp.s
 
 src/Renderer/Camera.o: src/Renderer/Camera.cpp.o
 .PHONY : src/Renderer/Camera.o
@@ -1068,15 +1140,24 @@ help:
 	@echo "... src/Cultivation/Cultivation.o"
 	@echo "... src/Cultivation/Cultivation.i"
 	@echo "... src/Cultivation/Cultivation.s"
+	@echo "... src/Cultivation/Physical/Techniques/Base.o"
+	@echo "... src/Cultivation/Physical/Techniques/Base.i"
+	@echo "... src/Cultivation/Physical/Techniques/Base.s"
 	@echo "... src/Cultivation/Physical/pcultivation.o"
 	@echo "... src/Cultivation/Physical/pcultivation.i"
 	@echo "... src/Cultivation/Physical/pcultivation.s"
+	@echo "... src/Cultivation/Spiritual/Techniques/Base.o"
+	@echo "... src/Cultivation/Spiritual/Techniques/Base.i"
+	@echo "... src/Cultivation/Spiritual/Techniques/Base.s"
 	@echo "... src/Cultivation/Spiritual/scultivation.o"
 	@echo "... src/Cultivation/Spiritual/scultivation.i"
 	@echo "... src/Cultivation/Spiritual/scultivation.s"
 	@echo "... src/Cultivation/util.o"
 	@echo "... src/Cultivation/util.i"
 	@echo "... src/Cultivation/util.s"
+	@echo "... src/Renderer/Animation2D.o"
+	@echo "... src/Renderer/Animation2D.i"
+	@echo "... src/Renderer/Animation2D.s"
 	@echo "... src/Renderer/Camera.o"
 	@echo "... src/Renderer/Camera.i"
 	@echo "... src/Renderer/Camera.s"

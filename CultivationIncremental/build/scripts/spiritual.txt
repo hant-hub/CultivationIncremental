@@ -1,0 +1,11 @@
+P
+stage: 0
+type: 1
+
+B
+x: -50.0
+y: 300.0
+text: unlock spiritual
+width: 250.0
+height: 100.0
+ID: 0

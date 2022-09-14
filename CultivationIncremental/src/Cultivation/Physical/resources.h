@@ -14,8 +14,8 @@ namespace GLogic{
             bool canAdvance;
         };
 
-        struct Foundation {
-            Foundation() : vessels(0), progress(0.0f), canAdvance(false), maxstrength(0) {}
+        struct VesselOpening {
+            VesselOpening() : vessels(0), progress(0.0f), canAdvance(false), maxstrength(0) {}
             std::string getRepr() { return fmt::format("vessels = {}, progress = {}, canAdvance = {}, maxstrength = {}", vessels, progress, canAdvance, maxstrength); }
 
             int vessels;
@@ -27,13 +27,13 @@ namespace GLogic{
 
         //main container
         struct CultivationStage {
-            CultivationStage() : m(Mortal()), f(Foundation()) {}
+            CultivationStage() : m(Mortal()), f(VesselOpening()) {}
             ~CultivationStage() {}
 
-            std::string getRepr() { return fmt::format("Mortal: {}\nFoundation: {}", m.getRepr(), f.getRepr()); }
+            std::string getRepr() { return fmt::format("Mortal: {}\nVesselOpening: {}", m.getRepr(), f.getRepr()); }
 
             Mortal m;
-            Foundation f;
+            VesselOpening f;
 
         };
 

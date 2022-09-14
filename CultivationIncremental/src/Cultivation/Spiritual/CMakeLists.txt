@@ -7,3 +7,5 @@ PRIVATE
 PUBLIC 
     scultivation.h  
 )
+
+add_subdirectory(Techniques)

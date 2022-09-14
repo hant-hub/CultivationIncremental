@@ -244,7 +244,12 @@ CMakeFiles/app.dir/cmake_pch.hxx.gch: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/9/unordered_map \
+  /usr/include/c++/9/bits/hashtable.h \
+  /usr/include/c++/9/bits/hashtable_policy.h \
+  /usr/include/c++/9/bits/unordered_map.h \
+  /usr/include/c++/9/bits/erase_if.h
 
 CMakeFiles/app.dir/src/Cultivation/Cultivation.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Cultivation/Cultivation.cpp \
@@ -253,8 +258,17 @@ CMakeFiles/app.dir/src/Cultivation/Cultivation.cpp.o: CMakeFiles/app.dir/cmake_p
   ../src/Cultivation/Physical/pcultivation.h \
   ../src/Cultivation/util.h \
   ../src/Cultivation/Physical/resources.h \
+  ../src/Cultivation/Physical/Techniques/methods_lib.h \
+  ../src/Cultivation/Physical/Techniques/Base.h \
+  ../src/Cultivation/Physical/Techniques/techniques.h \
   ../src/Cultivation/Spiritual/scultivation.h \
   ../src/Cultivation/Spiritual/resources.h
+
+CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
+  ../src/Cultivation/Physical/Techniques/Base.cpp \
+  /usr/include/stdc-predef.h \
+  ../src/Cultivation/Physical/Techniques/Base.h \
+  ../src/Cultivation/Physical/Techniques/techniques.h
 
 CMakeFiles/app.dir/src/Cultivation/Physical/pcultivation.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Cultivation/Physical/pcultivation.cpp \
@@ -262,11 +276,20 @@ CMakeFiles/app.dir/src/Cultivation/Physical/pcultivation.cpp.o: CMakeFiles/app.d
   ../src/Cultivation/Physical/pcultivation.h \
   ../src/Cultivation/util.h \
   ../src/Cultivation/Physical/resources.h \
+  ../src/Cultivation/Physical/Techniques/methods_lib.h \
+  ../src/Cultivation/Physical/Techniques/Base.h \
+  ../src/Cultivation/Physical/Techniques/techniques.h \
   ../src/Cultivation/Physical/actions.h \
   ../src/Cultivation/Cultivation.h \
   ../src/Cultivation/Spiritual/scultivation.h \
   ../src/Cultivation/Spiritual/resources.h \
   ../src/Cultivation/Physical/ticks.h
+
+CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
+  ../src/Cultivation/Spiritual/Techniques/Base.cpp \
+  /usr/include/stdc-predef.h \
+  ../src/Cultivation/Spiritual/Techniques/Base.h \
+  ../src/Cultivation/Spiritual/Techniques/techniques.h
 
 CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Cultivation/Spiritual/scultivation.cpp \
@@ -275,12 +298,23 @@ CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o: CMakeFiles/app.
   ../src/Cultivation/util.h \
   ../src/Cultivation/Spiritual/resources.h \
   ../src/Cultivation/Spiritual/actions.h \
+  ../src/Cultivation/Cultivation.h \
+  ../src/Cultivation/Physical/pcultivation.h \
+  ../src/Cultivation/Physical/resources.h \
+  ../src/Cultivation/Physical/Techniques/methods_lib.h \
+  ../src/Cultivation/Physical/Techniques/Base.h \
+  ../src/Cultivation/Physical/Techniques/techniques.h \
   ../src/Cultivation/Spiritual/ticks.h
 
 CMakeFiles/app.dir/src/Cultivation/util.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Cultivation/util.cpp \
   /usr/include/stdc-predef.h \
   ../src/Cultivation/util.h
+
+CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
+  ../src/Renderer/Animation2D.cpp \
+  /usr/include/stdc-predef.h \
+  ../src/Renderer/Animation2D.h
 
 CMakeFiles/app.dir/src/Renderer/Camera.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Renderer/Camera.cpp \
@@ -1583,7 +1617,8 @@ CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   /usr/include/c++/9/bits/erase_if.h \
   ../src/Renderer/Renderer.h \
   ../src/Renderer/Camera.h \
-  ../src/Renderer/Shader.h
+  ../src/Renderer/Shader.h \
+  ../src/Renderer/Animation2D.h
 
 CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Renderer/lib/STBIMAGE/stb_image.cpp \
@@ -1876,6 +1911,7 @@ CMakeFiles/app.dir/src/Util/Button.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Renderer/Sprite.h \
   ../src/Renderer/Renderer.h \
   ../src/Renderer/Camera.h \
+  ../src/Renderer/Animation2D.h \
   ../src/Renderer/core.h \
   ../src/Renderer/RenderText.h \
   /usr/include/freetype2/ft2build.h \
@@ -1899,6 +1935,9 @@ CMakeFiles/app.dir/src/Util/Button.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Cultivation/Physical/pcultivation.h \
   ../src/Cultivation/util.h \
   ../src/Cultivation/Physical/resources.h \
+  ../src/Cultivation/Physical/Techniques/methods_lib.h \
+  ../src/Cultivation/Physical/Techniques/Base.h \
+  ../src/Cultivation/Physical/Techniques/techniques.h \
   ../src/Cultivation/Spiritual/scultivation.h \
   ../src/Cultivation/Spiritual/resources.h
 
@@ -2162,6 +2201,7 @@ CMakeFiles/app.dir/src/Util/Panel.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Util/Button.h \
   ../src/Renderer/Shader.h \
   ../src/Renderer/Sprite.h \
+  ../src/Renderer/Animation2D.h \
   ../src/Renderer/core.h \
   ../src/Renderer/RenderText.h \
   /usr/include/freetype2/ft2build.h \
@@ -2184,6 +2224,9 @@ CMakeFiles/app.dir/src/Util/Panel.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Cultivation/Physical/pcultivation.h \
   ../src/Cultivation/util.h \
   ../src/Cultivation/Physical/resources.h \
+  ../src/Cultivation/Physical/Techniques/methods_lib.h \
+  ../src/Cultivation/Physical/Techniques/Base.h \
+  ../src/Cultivation/Physical/Techniques/techniques.h \
   ../src/Cultivation/Spiritual/scultivation.h \
   ../src/Cultivation/Spiritual/resources.h
 
@@ -2452,6 +2495,7 @@ CMakeFiles/app.dir/src/Util/ui.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Renderer/Camera.h \
   ../src/Renderer/Shader.h \
   ../src/Renderer/Sprite.h \
+  ../src/Renderer/Animation2D.h \
   ../src/Renderer/RenderText.h \
   /usr/include/freetype2/ft2build.h \
   /usr/include/freetype2/freetype/config/ftheader.h \
@@ -2473,6 +2517,9 @@ CMakeFiles/app.dir/src/Util/ui.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Cultivation/Physical/pcultivation.h \
   ../src/Cultivation/util.h \
   ../src/Cultivation/Physical/resources.h \
+  ../src/Cultivation/Physical/Techniques/methods_lib.h \
+  ../src/Cultivation/Physical/Techniques/Base.h \
+  ../src/Cultivation/Physical/Techniques/techniques.h \
   ../src/Cultivation/Spiritual/scultivation.h \
   ../src/Cultivation/Spiritual/resources.h \
   ../src/Util/Panel.h \
@@ -2489,6 +2536,9 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Cultivation/Physical/pcultivation.h \
   ../src/Cultivation/util.h \
   ../src/Cultivation/Physical/resources.h \
+  ../src/Cultivation/Physical/Techniques/methods_lib.h \
+  ../src/Cultivation/Physical/Techniques/Base.h \
+  ../src/Cultivation/Physical/Techniques/techniques.h \
   ../src/Cultivation/Spiritual/scultivation.h \
   ../src/Cultivation/Spiritual/resources.h \
   ../src/Renderer/core.h \
@@ -2747,6 +2797,7 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
   ../src/Renderer/Camera.h \
   ../src/Renderer/Shader.h \
   ../src/Renderer/Sprite.h \
+  ../src/Renderer/Animation2D.h \
   ../src/Renderer/RenderText.h \
   /usr/include/freetype2/ft2build.h \
   /usr/include/freetype2/freetype/config/ftheader.h \
@@ -2775,8 +2826,6 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 
 ../src/extern.cpp:
 
-../src/Util/ui.cpp:
-
 ../src/Util/scheduler.cpp:
 
 ../src/Util/Panel.cpp:
@@ -2799,8 +2848,6 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 
 /usr/include/freetype2/ft2build.h:
 
-/usr/include/c++/9/bits/erase_if.h:
-
 /usr/include/freetype2/freetype/fttypes.h:
 
 /usr/include/c++/9/map:
@@ -2814,8 +2861,6 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 ../src/Renderer/lib/GLM/glm/ext/vector_double1.hpp:
 
 ../src/Renderer/lib/GLM/glm/ext/vector_float1_precision.hpp:
-
-../src/Renderer/lib/GLM/glm/ext/vector_float1.hpp:
 
 ../src/Renderer/lib/GLM/glm/ext/vector_bool1_precision.hpp:
 
@@ -2929,17 +2974,11 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 
 ../src/Renderer/lib/GLM/glm/detail/type_mat3x4.hpp:
 
-../src/Renderer/lib/GLM/glm/ext/matrix_double3x3_precision.hpp:
-
 ../src/Renderer/lib/GLM/glm/detail/type_mat3x3.inl:
 
 ../src/Renderer/lib/GLM/glm/detail/type_mat3x3.hpp:
 
 ../src/Renderer/lib/GLM/glm/ext/matrix_double3x3.hpp:
-
-../src/Renderer/lib/GLM/glm/ext/matrix_float3x3_precision.hpp:
-
-../src/Renderer/lib/GLM/glm/ext/matrix_float3x2_precision.hpp:
 
 ../src/Renderer/lib/GLM/glm/ext/matrix_float3x2.hpp:
 
@@ -2975,8 +3014,6 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 
 ../src/Renderer/lib/GLM/glm/detail/type_mat2x2.inl:
 
-../src/Renderer/lib/GLM/glm/detail/type_mat2x2.hpp:
-
 ../src/Renderer/lib/STBIMAGE/stb_image.h:
 
 ../src/Renderer/lib/GLM/glm/ext/matrix_double2x2.hpp:
@@ -2998,8 +3035,6 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 ../src/Renderer/lib/GLM/glm/ext/vector_double4.hpp:
 
 ../src/Renderer/lib/GLM/glm/ext/vector_float4.hpp:
-
-../src/Renderer/lib/GLM/glm/ext/vector_bool4_precision.hpp:
 
 ../src/Renderer/lib/GLM/glm/vec4.hpp:
 
@@ -3063,8 +3098,6 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 
 /usr/include/limits.h:
 
-/usr/include/c++/9/climits:
-
 ../src/Renderer/lib/GLM/glm/simd/platform.h:
 
 /usr/include/c++/9/cassert:
@@ -3080,6 +3113,36 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 ../src/Renderer/lib/GLM/glm/ext/scalar_int_sized.hpp:
 
 ../src/Renderer/Camera.cpp:
+
+../src/Renderer/lib/GLM/glm/ext/matrix_double3x3_precision.hpp:
+
+../src/Renderer/Animation2D.h:
+
+../src/Renderer/Animation2D.cpp:
+
+../src/Cultivation/Spiritual/ticks.h:
+
+/usr/include/c++/9/bits/stl_multimap.h:
+
+../src/Cultivation/Spiritual/actions.h:
+
+../src/Cultivation/Spiritual/Techniques/techniques.h:
+
+../src/Cultivation/Spiritual/Techniques/Base.cpp:
+
+../src/Renderer/lib/GLM/glm/ext/matrix_float2x2_precision.hpp:
+
+../src/Cultivation/Physical/ticks.h:
+
+../src/Cultivation/Physical/actions.h:
+
+../src/Cultivation/Physical/pcultivation.cpp:
+
+../src/Renderer/lib/GLM/glm/ext/matrix_float3x3_precision.hpp:
+
+../src/Renderer/lib/GLM/glm/ext/matrix_float3x2_precision.hpp:
+
+../src/Cultivation/Physical/Techniques/Base.cpp:
 
 ../src/Renderer/Renderer.h:
 
@@ -3211,11 +3274,21 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
+../src/Cultivation/Spiritual/Techniques/Base.h:
+
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
+../src/Util/ui.cpp:
+
+/usr/include/c++/9/unordered_map:
+
 /usr/include/c++/9/bits/predefined_ops.h:
+
+/usr/include/c++/9/climits:
+
+../src/Cultivation/Physical/Techniques/methods_lib.h:
 
 /usr/include/c++/9/debug/debug.h:
 
@@ -3230,8 +3303,6 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 ../src/Renderer/lib/GLM/glm/detail/type_vec4.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-../src/Cultivation/Physical/actions.h:
 
 ../src/Renderer/lib/GLM/glm/detail/type_mat4x4.hpp:
 
@@ -3351,10 +3422,6 @@ CMakeFiles/app.dir/src/main.cpp.o: CMakeFiles/app.dir/cmake_pch.hxx \
 
 /usr/include/wctype.h:
 
-../src/Renderer/lib/GLM/glm/ext/matrix_float2x2_precision.hpp:
-
-../src/Cultivation/Physical/ticks.h:
-
 /usr/include/c++/9/bits/memoryfwd.h:
 
 CMakeFiles/app.dir/cmake_pch.hxx:
@@ -3405,6 +3472,8 @@ CMakeFiles/app.dir/cmake_pch.hxx.cxx:
 
 /usr/include/c++/9/bits/stl_algobase.h:
 
+/usr/include/c++/9/bits/hashtable_policy.h:
+
 ../src/Renderer/lib/GLM/glm/gtc/type_ptr.inl:
 
 /usr/include/features.h:
@@ -3434,6 +3503,10 @@ CMakeFiles/app.dir/cmake_pch.hxx.cxx:
 /usr/include/c++/9/streambuf:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+../src/Renderer/lib/GLM/glm/detail/type_mat2x2.hpp:
+
+../src/Cultivation/Physical/Techniques/techniques.h:
 
 /usr/include/c++/9/bits/move.h:
 
@@ -3541,6 +3614,10 @@ CMakeFiles/app.dir/cmake_pch.hxx.cxx:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
+../src/Cultivation/Spiritual/resources.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
 /usr/include/c++/9/bits/sstream.tcc:
 
 /usr/include/c++/9/bits/stl_tempbuf.h:
@@ -3589,6 +3666,10 @@ CMakeFiles/app.dir/cmake_pch.hxx.cxx:
 
 /usr/include/c++/9/bits/basic_ios.tcc:
 
+../src/Renderer/lib/GLM/glm/ext/vector_bool4_precision.hpp:
+
+/usr/include/c++/9/bits/hashtable.h:
+
 ../src/Renderer/lib/GLM/glm/ext/matrix_float2x2.hpp:
 
 /usr/include/c++/9/bits/ostream.tcc:
@@ -3612,6 +3693,10 @@ CMakeFiles/app.dir/cmake_pch.hxx.cxx:
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 ../src/fmt/include/fmt/core.h:
+
+../src/Cultivation/Spiritual/scultivation.cpp:
+
+/usr/include/c++/9/functional:
 
 /usr/include/c++/9/cstddef:
 
@@ -3701,8 +3786,6 @@ CMakeFiles/app.dir/cmake_pch.hxx.cxx:
 
 /usr/include/c++/9/backward/auto_ptr.h:
 
-../src/Cultivation/Physical/pcultivation.cpp:
-
 ../src/Renderer/Renderer.cpp:
 
 ../src/Renderer/lib/GLM/glm/ext/matrix_float3x4.hpp:
@@ -3733,6 +3816,8 @@ CMakeFiles/app.dir/cmake_pch.hxx.cxx:
 
 /usr/include/math.h:
 
+/usr/include/c++/9/bits/erase_if.h:
+
 /usr/include/freetype2/freetype/config/ftconfig.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
@@ -3749,6 +3834,8 @@ CMakeFiles/app.dir/cmake_pch.hxx.cxx:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
+/usr/include/c++/9/bits/unordered_map.h:
+
 ../src/Cultivation/Cultivation.h:
 
 ../src/Renderer/lib/GLM/glm/ext/matrix_double2x4_precision.hpp:
@@ -3761,16 +3848,6 @@ CMakeFiles/app.dir/cmake_pch.hxx.cxx:
 
 ../src/Cultivation/Physical/resources.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+../src/Renderer/lib/GLM/glm/ext/vector_float1.hpp:
 
-../src/Cultivation/Spiritual/resources.h:
-
-/usr/include/c++/9/functional:
-
-../src/Cultivation/Spiritual/scultivation.cpp:
-
-/usr/include/c++/9/bits/stl_multimap.h:
-
-../src/Cultivation/Spiritual/actions.h:
-
-../src/Cultivation/Spiritual/ticks.h:
+../src/Cultivation/Physical/Techniques/Base.h:

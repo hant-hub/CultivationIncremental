@@ -242,4 +242,5 @@ CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o: \
  /usr/include/c++/9/bits/erase_if.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Renderer.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Camera.h \
- /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Shader.h
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Shader.h \
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Animation2D.h

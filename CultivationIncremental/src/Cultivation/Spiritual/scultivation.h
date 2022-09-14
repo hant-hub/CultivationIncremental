@@ -11,7 +11,7 @@ namespace GLogic {
 
     enum Sstage{
         Mortal = 0,
-        Foundation = 1
+        QiGathering = 1
     };
 
 
@@ -34,12 +34,14 @@ namespace GLogic {
 
             //Tick friend list
             friend void Tick0(Scultivation&, float);
+            friend void Tick1(Scultivation&, float);
 
 
         private:
             Sstage stage;
             Cultivation& c;
             Resources::CultivationStage data;
+            int method;
 
 
     };

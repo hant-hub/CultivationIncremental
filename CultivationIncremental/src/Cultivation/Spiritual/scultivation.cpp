@@ -8,8 +8,9 @@ namespace GLogic {
 
 namespace Spiritual {
 
-const tickFunc<Scultivation> tickmethods[1] = {
-                                Tick0
+const tickFunc<Scultivation> tickmethods[2] = {
+                                Tick0,
+                                Tick1
 };
 
 const action<Scultivation> Actions[1][1] = {

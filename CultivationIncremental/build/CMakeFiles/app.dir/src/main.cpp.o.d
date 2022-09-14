@@ -5,6 +5,9 @@ CMakeFiles/app.dir/src/main.cpp.o: \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Physical/pcultivation.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Physical/../util.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Physical/resources.h \
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Physical/Techniques/methods_lib.h \
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Physical/Techniques/Base.h \
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Physical/Techniques/techniques.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Spiritual/scultivation.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Cultivation/Spiritual/resources.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/core.h \
@@ -250,6 +253,7 @@ CMakeFiles/app.dir/src/main.cpp.o: \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Camera.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Shader.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Sprite.h \
+ /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/Animation2D.h \
  /home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/src/Renderer/RenderText.h \
  /usr/include/freetype2/ft2build.h \
  /usr/include/freetype2/freetype/config/ftheader.h \

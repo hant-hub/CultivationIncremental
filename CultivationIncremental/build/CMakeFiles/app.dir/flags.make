@@ -20,7 +20,11 @@ CXX_FLAGS =   -pthread
 
 # PCH options: CMakeFiles/app.dir/src/Cultivation/Physical/pcultivation.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx
 
+# PCH options: CMakeFiles/app.dir/src/Cultivation/Physical/Techniques/Base.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx
+
 # PCH options: CMakeFiles/app.dir/src/Cultivation/Spiritual/scultivation.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/app.dir/src/Cultivation/Spiritual/Techniques/Base.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx
 
 # PCH options: CMakeFiles/app.dir/src/Renderer/Camera.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx
 
@@ -31,6 +35,8 @@ CXX_FLAGS =   -pthread
 # PCH options: CMakeFiles/app.dir/src/Renderer/Shader.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx
 
 # PCH options: CMakeFiles/app.dir/src/Renderer/Sprite.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/app.dir/src/Renderer/Animation2D.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx
 
 # PCH options: CMakeFiles/app.dir/src/Renderer/lib/STBIMAGE/stb_image.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/elijah/Desktop/Dev/Git/repos/CultivationIncremental/CultivationIncremental/build/CMakeFiles/app.dir/cmake_pch.hxx
 

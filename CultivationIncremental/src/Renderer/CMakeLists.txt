@@ -11,6 +11,8 @@ PRIVATE
     Shader.h 
     Sprite.h
     Camera.h 
+    Animation2D.cpp
+    Animation2D.h
 PUBLIC 
     core.h 
 )

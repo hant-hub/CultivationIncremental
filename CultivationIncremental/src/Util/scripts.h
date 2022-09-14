@@ -112,7 +112,7 @@ namespace Scripts {
                     }
                 }
             
-                printf("x: %f y: %f width: %f height: %f ID: %i\n", x, y, width, height, id);
+                printf("x: %f y: %f width: %f height: %f ID: %i  text: %s\n", x, y, width, height, id, text.c_str());
                 new Render::Button(&s, &t, panels[index], w, text.c_str(), buttonImage, x, y, width, height, id);
             }
             index++;

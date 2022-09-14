@@ -17,7 +17,7 @@ namespace Physical {
     };
 
 
-    Pcultivation::Pcultivation(Cultivation& c) : c(c), stage(Mortal), data(Physical::Resources::CultivationStage()) {
+    Pcultivation::Pcultivation(Cultivation& c) : c(c), stage(Mortal), data(Physical::Resources::CultivationStage()), method(0) {
     }
 
 

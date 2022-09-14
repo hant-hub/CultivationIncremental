@@ -1,6 +1,7 @@
 #pragma once
 #include "../util.h"
 #include "resources.h"
+#include "Techniques/methods_lib.h"
 
 
 
@@ -11,7 +12,8 @@ class Cultivation;
 namespace Physical {
 enum Pstage {
     Mortal = 0,
-    Foundation = 1
+    VesselOpening = 1,
+    SkinRefinement = 2
 };
 
 
@@ -27,8 +29,8 @@ void Action(Pstage group, int id);
 
 //getters
 const std::string GetCultivation() { return fmt::format("{} \n  stage: {}", data.getRepr(), stage); }
-const Pstage GetStage() {return stage;}
-const Cultivation& GetParent() { return c; }
+const Pstage GetStage() const {return stage;}
+const Cultivation& GetParent() const { return c; }
 const Physical::Resources::CultivationStage& GetData() const { return data; }
 
 //action friend list
@@ -45,6 +47,7 @@ private:
     Pstage stage;
     Cultivation& c;
     Physical::Resources::CultivationStage data;
+    int method;
     
 
 };

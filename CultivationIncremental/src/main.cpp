@@ -51,7 +51,7 @@ int main(int argc, char* argv[]) {
     EventLoop::Scheduler s;
   
     
-    Render::Window* window = Render::CreateWindow(800, 600);
+    Render::Window* window = Render::CreateWindow(1600, 1200);
 
 
 
@@ -66,10 +66,11 @@ int main(int argc, char* argv[]) {
     Render::Button a(&texturedShader, &textshader, test, *window, "test2", "images/button.jpg", 50.0f, 0.0f, 100.0f, 100.0f, 1);
     
     Scripts::PanelArray p = Scripts::CreatePanels("scripts/physical.txt", "images/button.png", *window, texturedShader, textshader);
+    Scripts::PanelArray sp = Scripts::CreatePanels("scripts/spiritual.txt", "images/button.png", *window, texturedShader, textshader);
     Scripts::PanelArray meta = Scripts::CreatePanels("scripts/meta.txt", "images/button.png", *window, texturedShader, textshader);
     printf("func exits\n");
     //Render::Panel t[] = {test};
-    GUI::GUI gui(*window, meta.p[0], p.p, nullptr, nullptr, 0u, c);
+    GUI::GUI gui(*window, meta.p[0], p.p, sp.p, nullptr, 0u, c);
 
 
 
@@ -128,8 +129,8 @@ int main(int argc, char* argv[]) {
         
         gui.Draw();
         
-		trender.RenderText(textshader, c.p.GetCultivation(), 0, -100, 0.4, glm::vec3(0.0f,0.0f,0.0f));
-        trender.RenderText(textshader, c.s.GetCultivation(), -300, 0, 0.4, glm::vec3(0.0f,0.0f,0.0f));
+		trender.RenderText(textshader, c.Repr(), 0, -300, 0.4, glm::vec3(0.0f,0.0f,0.0f));
+        //trender.RenderText(textshader, c.s.GetCultivation(), -300, 0, 0.4, glm::vec3(0.0f,0.0f,0.0f));
         
         
 

@@ -4,16 +4,24 @@ type: 3
 
 B
 x: -100.0
-y: -250.0
-text: first
+y: -500.0
+text: p0
 width: 100.0
 height: 100.0
 ID: 0
 
 B
 x: 50.0
-y: -250.0
-text: second
+y: -500.0
+text: physical1
 width: 200.0
 height 100.0
 ID: 3
+
+B
+x: 400.0
+y: -500.0
+text: Spiritual0
+width: 200.0
+height 100.0
+ID: 1

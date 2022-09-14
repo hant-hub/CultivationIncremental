@@ -33,10 +33,10 @@ void GUI::GUI::Clicked(float x, float y) {
 
     type = ActivePanel[0];
     stage = ActivePanel[1];
-
+    
     Render::Panel* p = &(panels[type])[stage];
     
-
+    
     b = p->CheckButtons(x, y);
     
     if (b == nullptr) return;
@@ -47,6 +47,10 @@ void GUI::GUI::Clicked(float x, float y) {
         
         case GLogic::CultivationType::Physical:
             c.p.Action((GLogic::Physical::Pstage)stage, id);
+        break;
+
+        case GLogic::CultivationType::Spiritual:
+            c.s.Action((GLogic::Spiritual::Sstage)stage, id);
         break;
 
         case GLogic::CultivationType::NONE:
